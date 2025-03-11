@@ -80,10 +80,52 @@
             "mega_image_link_2": "",
             "show_promo_2_in_mobile_drawer": true
           }
+        },
+        "content_g9rCUD": {
+          "type": "content",
+          "settings": {
+            "mega-menu": "系列",
+            "image_1_aspect_ratio": "square",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#FFFFFF",
+            "mega_image_link_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "image_2_aspect_ratio": "square",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#FFFFFF",
+            "mega_image_link_2": "",
+            "show_promo_2_in_mobile_drawer": true
+          }
+        },
+        "content_4ex99q": {
+          "type": "content",
+          "settings": {
+            "mega-menu": "ABOUT US",
+            "image_1_aspect_ratio": "square",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#FFFFFF",
+            "mega_image_link_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "image_2_aspect_ratio": "square",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#FFFFFF",
+            "mega_image_link_2": "",
+            "show_promo_2_in_mobile_drawer": true
+          }
         }
       },
       "block_order": [
-        "content_DDNtKD"
+        "content_DDNtKD",
+        "content_g9rCUD",
+        "content_4ex99q"
       ],
       "settings": {
         "sticky_header": true,
