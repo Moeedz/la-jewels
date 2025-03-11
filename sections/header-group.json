@@ -63,10 +63,11 @@
       "settings": {
         "sticky_header": true,
         "enable_search": true,
+        "logo": "shopify://shop_images/la.vie_website_-2_ef8d94d3-d5d9-480f-be91-c65f4fbfb8d5.png",
         "logo-placement": "above",
         "logo_max_width": 235,
         "logo_max_width_mobile": 120,
-        "logo_padding": 0,
+        "logo_padding": 15,
         "mobile_social_icons": true,
         "show_icons": true,
         "cart-style": "shopping-bag",
