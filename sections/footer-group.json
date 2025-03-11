@@ -1,1 +1,55 @@
-{"type":"footer","name":"Footer","sections":{"newsletter_newsletter_zc97Ew":{"type":"newsletter--newsletter","settings":{"colors":"light","newsletter_heading":"Join our Mailing List","newsletter_description":""}},"footer-main":{"type":"footer-main","blocks":{"social":{"type":"social","settings":{"social_title":""}}},"block_order":["social"],"settings":{"alignment":"left"}},"footer-bottom":{"type":"footer-bottom","disabled":true,"settings":{"show_methods_of_payment":true,"center_content_on_desktop":true,"footer_text":"","show_currency_selector":true,"show_locale_selector":false}}},"order":["newsletter_newsletter_zc97Ew","footer-main","footer-bottom"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "newsletter_newsletter_zc97Ew": {
+      "type": "newsletter--newsletter",
+      "settings": {
+        "colors": "light",
+        "newsletter_heading": "Join our Mailing List",
+        "newsletter_description": ""
+      }
+    },
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "social": {
+          "type": "social",
+          "settings": {
+            "social_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "social"
+      ],
+      "settings": {
+        "alignment": "left"
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "settings": {
+        "show_methods_of_payment": true,
+        "center_content_on_desktop": true,
+        "footer_text": "",
+        "show_currency_selector": true,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "newsletter_newsletter_zc97Ew",
+    "footer-main",
+    "footer-bottom"
+  ]
+}
