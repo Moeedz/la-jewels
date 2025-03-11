@@ -68,7 +68,7 @@
         "logo_max_width_mobile": 120,
         "logo_padding": 0,
         "mobile_social_icons": true,
-        "show_icons": false,
+        "show_icons": true,
         "cart-style": "shopping-bag",
         "cart_count": true,
         "overlay_header_homepage": false,
