@@ -78,7 +78,7 @@
         "overlay_opacity": 0,
         "show_currency_selector": true,
         "show_locale_selector": true,
-        "main_linklist": "jewelry-by-category",
+        "main_linklist": "link-list",
         "dropdown_alignment": "left"
       }
     }
