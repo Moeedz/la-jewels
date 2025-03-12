@@ -9,43 +9,26 @@
  */
 {
   "sections": {
-    "image_slideshow_8ijpMy": {
-      "type": "image--slideshow",
-      "blocks": {
-        "image_UEbjkk": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "text": "",
-            "first_button_label": "",
-            "first_button_link": "",
-            "second_button_label": "",
-            "second_button_link": "",
-            "image": "shopify://shop_images/IMG_8437.jpg",
-            "desktop-caption-heading-size": 80,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "center_left",
-            "mobile_image": "shopify://shop_images/IMG_8437_ec148498-e504-471e-ade9-a70d6acecdd3.jpg",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "center_left",
-            "image_overlay": "#262428",
-            "image_overlay_opacity": 0,
-            "caption-text": "#242424",
-            "button-text": "#ffffff",
-            "button-background": "#242424",
-            "hover-button-background": "#9f9f9f"
-          }
-        }
-      },
-      "block_order": [
-        "image_UEbjkk"
-      ],
+    "video_video_hero_jnF6My": {
+      "type": "video--video-hero",
       "settings": {
-        "desktop_height": "original",
-        "mobile_height": "original",
-        "slide_navigation_style": "bars",
-        "slide_transition_delay": 7
+        "video": "shopify://files/videos/jewllery-video.mp4",
+        "url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "fullscreen",
+        "title": "",
+        "subheading": "",
+        "textAlignment": "center",
+        "textColor": "#262428",
+        "textShadow": false,
+        "heading--text-size": 50,
+        "subheading--text-size": 24,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
       }
     },
     "featured_collection_16_fFCLQH": {
@@ -222,26 +205,43 @@
         "lazy": true
       }
     },
-    "video_video_hero_jnF6My": {
-      "type": "video--video-hero",
+    "image_slideshow_8ijpMy": {
+      "type": "image--slideshow",
+      "blocks": {
+        "image_UEbjkk": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_label": "",
+            "first_button_link": "",
+            "second_button_label": "",
+            "second_button_link": "",
+            "image": "shopify://shop_images/IMG_8437.jpg",
+            "desktop-caption-heading-size": 80,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "center_left",
+            "mobile_image": "shopify://shop_images/IMG_8437_ec148498-e504-471e-ade9-a70d6acecdd3.jpg",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#242424",
+            "button-text": "#ffffff",
+            "button-background": "#242424",
+            "hover-button-background": "#9f9f9f"
+          }
+        }
+      },
+      "block_order": [
+        "image_UEbjkk"
+      ],
       "settings": {
-        "video": "shopify://files/videos/jewllery-video.mp4",
-        "url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "desktopHeight": "fullscreen",
-        "mobileHeight": "fullscreen",
-        "title": "",
-        "subheading": "",
-        "textAlignment": "center",
-        "textColor": "#262428",
-        "textShadow": false,
-        "heading--text-size": 50,
-        "subheading--text-size": 24,
-        "link": "",
-        "button_label": "",
-        "button-text": "#ffffff",
-        "button-background": "#262428",
-        "hover-button-text": "#ffffff",
-        "hover-button-background": "#494949"
+        "desktop_height": "original",
+        "mobile_height": "original",
+        "slide_navigation_style": "bars",
+        "slide_transition_delay": 7
       }
     },
     "ss_media_grid_UwhWWx": {
@@ -250,15 +250,16 @@
         "image_YepWbn": {
           "type": "image",
           "settings": {
-            "image_overlay": 20,
+            "image": "shopify://shop_images/2025-01-28_4.57.23.png",
+            "image_overlay": 0,
             "image_radius": 0,
-            "heading": "Promote your products",
+            "heading": "",
             "heading_custom": false,
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "",
-            "link_url": "",
+            "link": "NECKLACE",
+            "link_url": "shopify://collections/necklace",
             "link_custom": false,
             "link_font": "assistant_n4",
             "link_size": 22,
@@ -266,10 +267,10 @@
             "link_mt": 16,
             "column_width": 2,
             "row_width": 2,
-            "content_align": "middle-center",
-            "content_align_mobile": "middle-center",
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
             "content_padding_horizontal": 16,
-            "content_padding_vertical": 16,
+            "content_padding_vertical": 60,
             "bg_color": "#000000",
             "heading_color": "#ffffff",
             "link_color": "#ffffff",
@@ -280,15 +281,16 @@
         "image_Q4pnTy": {
           "type": "image",
           "settings": {
-            "image_overlay": 20,
+            "image": "shopify://shop_images/IMG_0398.jpg",
+            "image_overlay": 0,
             "image_radius": 0,
-            "heading": "Promote your products",
+            "heading": "",
             "heading_custom": false,
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "",
-            "link_url": "",
+            "link": "RING",
+            "link_url": "shopify://collections/ring",
             "link_custom": false,
             "link_font": "assistant_n4",
             "link_size": 22,
@@ -296,10 +298,10 @@
             "link_mt": 16,
             "column_width": 2,
             "row_width": 2,
-            "content_align": "middle-center",
-            "content_align_mobile": "middle-center",
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
             "content_padding_horizontal": 16,
-            "content_padding_vertical": 16,
+            "content_padding_vertical": 60,
             "bg_color": "#000000",
             "heading_color": "#ffffff",
             "link_color": "#ffffff",
@@ -376,7 +378,7 @@
       ],
       "settings": {
         "items_gap": 20,
-        "items_gap_mobile": 20,
+        "items_gap_mobile": 6,
         "row_height": 300,
         "row_height_mobile": 200,
         "background_color": "#ffffff",
@@ -387,7 +389,7 @@
         "padding_top": 20,
         "padding_bottom": 20,
         "padding_horizontal": 1,
-        "padding_horizontal_mobile": 1.5,
+        "padding_horizontal_mobile": 0.5,
         "full_width": true,
         "content_width": 120,
         "border_thickness": 0
