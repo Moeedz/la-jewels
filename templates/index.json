@@ -222,41 +222,26 @@
         "lazy": true
       }
     },
-    "image_slideshow_FUhFP7": {
-      "type": "image--slideshow",
-      "blocks": {
-        "image_miYefm": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "text": "",
-            "first_button_label": "",
-            "first_button_link": "",
-            "second_button_label": "",
-            "second_button_link": "",
-            "desktop-caption-heading-size": 80,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "center_left",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "center_left",
-            "image_overlay": "#262428",
-            "image_overlay_opacity": 0,
-            "caption-text": "#242424",
-            "button-text": "#ffffff",
-            "button-background": "#242424",
-            "hover-button-background": "#9f9f9f"
-          }
-        }
-      },
-      "block_order": [
-        "image_miYefm"
-      ],
+    "video_video_hero_jnF6My": {
+      "type": "video--video-hero",
       "settings": {
-        "desktop_height": "original",
-        "mobile_height": "original",
-        "slide_navigation_style": "bars",
-        "slide_transition_delay": 7
+        "video": "shopify://files/videos/jewllery-video.mp4",
+        "url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "desktopHeight": "fullscreen",
+        "mobileHeight": "fullscreen",
+        "title": "",
+        "subheading": "",
+        "textAlignment": "center",
+        "textColor": "#262428",
+        "textShadow": false,
+        "heading--text-size": 50,
+        "subheading--text-size": 24,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
       }
     },
     "ss_media_grid_UwhWWx": {
@@ -708,9 +693,9 @@
     }
   },
   "order": [
-    "image_slideshow_8ijpMy",
+    "video_video_hero_jnF6My",
     "featured_collection_16_fFCLQH",
-    "image_slideshow_FUhFP7",
+    "image_slideshow_8ijpMy",
     "ss_media_grid_UwhWWx",
     "image_slideshow_3GLD8V",
     "featured_collection_16_96Jh96",
