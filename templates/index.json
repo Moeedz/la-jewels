@@ -182,23 +182,23 @@
         "scrollbar_show_mobile": true,
         "title_color": "#121212",
         "price_color": "#121212",
-        "price_original_color": "#AFAFAF",
+        "price_original_color": "#afafaf",
         "image_border_color": "#121212",
         "badge_color": "#121212",
-        "badge_bg_color": "#FFFFFF",
-        "badge_border_color": "#AFAFAF",
+        "badge_bg_color": "#ffffff",
+        "badge_border_color": "#afafaf",
         "scrolling_text_color": "#121212",
-        "scrolling_bg_color": "#F3F3F3",
-        "arrow_color": "#FFFFFF",
+        "scrolling_bg_color": "#f3f3f3",
+        "arrow_color": "#ffffff",
         "arrow_hover_color": "#121212",
         "arrow_bg_color": "#121212",
-        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#ffffff",
         "arrow_border_color": "#121212",
         "arrow_border_hover_color": "#121212",
-        "scrollbar_drag_bg_color": "#6E6E6E",
-        "scrollbar_bg_color": "#DDDDDD",
+        "scrollbar_drag_bg_color": "#6e6e6e",
+        "scrollbar_bg_color": "#dddddd",
         "heading_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#121212",
         "margin_top": 0,
@@ -252,11 +252,99 @@
         "slide_navigation_style": "bars",
         "slide_transition_delay": 7
       }
+    },
+    "ss_media_grid_UwhWWx": {
+      "type": "ss-media-grid",
+      "blocks": {
+        "image_YepWbn": {
+          "type": "image",
+          "settings": {
+            "image_overlay": 20,
+            "image_radius": 0,
+            "heading": "Promote your products",
+            "heading_custom": false,
+            "heading_font": "assistant_n4",
+            "heading_size": 32,
+            "heading_height": 100,
+            "link": "",
+            "link_url": "",
+            "link_custom": false,
+            "link_font": "assistant_n4",
+            "link_size": 22,
+            "link_height": 100,
+            "link_mt": 16,
+            "column_width": 2,
+            "row_width": 2,
+            "content_align": "middle-center",
+            "content_align_mobile": "middle-center",
+            "content_padding_horizontal": 16,
+            "content_padding_vertical": 16,
+            "bg_color": "#000000",
+            "heading_color": "#FFFFFF",
+            "link_color": "#FFFFFF",
+            "link_hover_color": "#FFFFFF",
+            "overlay_color": "#000000"
+          }
+        },
+        "image_Q4pnTy": {
+          "type": "image",
+          "settings": {
+            "image_overlay": 20,
+            "image_radius": 0,
+            "heading": "Promote your products",
+            "heading_custom": false,
+            "heading_font": "assistant_n4",
+            "heading_size": 32,
+            "heading_height": 100,
+            "link": "",
+            "link_url": "",
+            "link_custom": false,
+            "link_font": "assistant_n4",
+            "link_size": 22,
+            "link_height": 100,
+            "link_mt": 16,
+            "column_width": 2,
+            "row_width": 2,
+            "content_align": "middle-center",
+            "content_align_mobile": "middle-center",
+            "content_padding_horizontal": 16,
+            "content_padding_vertical": 16,
+            "bg_color": "#000000",
+            "heading_color": "#FFFFFF",
+            "link_color": "#FFFFFF",
+            "link_hover_color": "#FFFFFF",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_YepWbn",
+        "image_Q4pnTy"
+      ],
+      "settings": {
+        "items_gap": 20,
+        "items_gap_mobile": 20,
+        "row_height": 300,
+        "row_height_mobile": 200,
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0
+      }
     }
   },
   "order": [
     "image_slideshow_8ijpMy",
     "featured_collection_16_fFCLQH",
-    "image_slideshow_FUhFP7"
+    "image_slideshow_FUhFP7",
+    "ss_media_grid_UwhWWx"
   ]
 }
