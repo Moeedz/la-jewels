@@ -107,6 +107,10 @@
         "product_BrHHzL",
         "product_DERDFm"
       ],
+      "custom_css": [
+        "p.featured-title-template--20848120168653__featured_collection_16_fFCLQH {margin-left: 0 !important;}",
+        ".featured-price-template--20848120168653__featured_collection_16_fFCLQH {margin-left: 0 !important;}"
+      ],
       "settings": {
         "heading": "",
         "heading_custom": false,
