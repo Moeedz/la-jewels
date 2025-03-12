@@ -613,32 +613,33 @@
         "lazy": true
       }
     },
-    "ss_media_grid_kqCBPV": {
+    "ss_media_grid_KDhAxb": {
       "type": "ss-media-grid",
       "blocks": {
-        "image_YMfdtH": {
+        "image_7UxHcq": {
           "type": "image",
           "settings": {
-            "image_overlay": 20,
+            "image": "shopify://shop_images/LOVE3988.jpg",
+            "image_overlay": 0,
             "image_radius": 0,
-            "heading": "Promote your products",
+            "heading": "",
             "heading_custom": false,
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "",
-            "link_url": "",
+            "link": "NECKLACE",
+            "link_url": "shopify://collections/necklace",
             "link_custom": false,
             "link_font": "assistant_n4",
-            "link_size": 22,
+            "link_size": 34,
             "link_height": 100,
             "link_mt": 16,
             "column_width": 2,
             "row_width": 2,
-            "content_align": "middle-center",
-            "content_align_mobile": "middle-center",
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
             "content_padding_horizontal": 16,
-            "content_padding_vertical": 16,
+            "content_padding_vertical": 60,
             "bg_color": "#000000",
             "heading_color": "#ffffff",
             "link_color": "#ffffff",
@@ -646,29 +647,30 @@
             "overlay_color": "#000000"
           }
         },
-        "image_tyKiwM": {
+        "image_DmqJNL": {
           "type": "image",
           "settings": {
-            "image_overlay": 20,
+            "image": "shopify://shop_images/DSC04586.jpg",
+            "image_overlay": 0,
             "image_radius": 0,
-            "heading": "Promote your products",
+            "heading": "",
             "heading_custom": false,
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "",
-            "link_url": "",
+            "link": "BRACELET",
+            "link_url": "shopify://collections/ring",
             "link_custom": false,
             "link_font": "assistant_n4",
-            "link_size": 22,
+            "link_size": 34,
             "link_height": 100,
             "link_mt": 16,
             "column_width": 2,
             "row_width": 2,
-            "content_align": "middle-center",
-            "content_align_mobile": "middle-center",
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
             "content_padding_horizontal": 16,
-            "content_padding_vertical": 16,
+            "content_padding_vertical": 60,
             "bg_color": "#000000",
             "heading_color": "#ffffff",
             "link_color": "#ffffff",
@@ -678,12 +680,15 @@
         }
       },
       "block_order": [
-        "image_YMfdtH",
-        "image_tyKiwM"
+        "image_7UxHcq",
+        "image_DmqJNL"
+      ],
+      "custom_css": [
+        ".section-template--20848120168653__ss_media_grid_KDhAxb-settings.media-grid-items-template--20848120168653__ss_media_grid_KDhAxb a {background: black !important; padding: 5px 35px; border: solid 2px white !important;}"
       ],
       "settings": {
         "items_gap": 20,
-        "items_gap_mobile": 20,
+        "items_gap_mobile": 6,
         "row_height": 300,
         "row_height_mobile": 200,
         "background_color": "#ffffff",
@@ -694,7 +699,7 @@
         "padding_top": 20,
         "padding_bottom": 20,
         "padding_horizontal": 1,
-        "padding_horizontal_mobile": 1.5,
+        "padding_horizontal_mobile": 0.5,
         "full_width": true,
         "content_width": 120,
         "border_thickness": 0
@@ -708,6 +713,6 @@
     "ss_media_grid_UwhWWx",
     "image_slideshow_CYmK6y",
     "featured_collection_16_96Jh96",
-    "ss_media_grid_kqCBPV"
+    "ss_media_grid_KDhAxb"
   ]
 }
