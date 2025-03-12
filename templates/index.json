@@ -239,7 +239,7 @@
       ],
       "settings": {
         "desktop_height": "original",
-        "mobile_height": "original",
+        "mobile_height": "extra_large",
         "slide_navigation_style": "bars",
         "slide_transition_delay": 7
       }
@@ -400,39 +400,41 @@
         "border_thickness": 0
       }
     },
-    "image_slideshow_3GLD8V": {
+    "image_slideshow_CYmK6y": {
       "type": "image--slideshow",
       "blocks": {
-        "image_iNnq8V": {
+        "image_cVBYPi": {
           "type": "image",
           "settings": {
-            "title": "",
+            "title": "TIMELESS DESIGN",
             "text": "",
-            "first_button_label": "",
+            "first_button_label": "Discover",
             "first_button_link": "",
             "second_button_label": "",
             "second_button_link": "",
-            "desktop-caption-heading-size": 80,
+            "image": "shopify://shop_images/IMG_8359.jpg",
+            "desktop-caption-heading-size": 56,
             "desktop-caption-body-text-size": 24,
-            "text_position": "center_left",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "center_left",
+            "text_position": "bottom",
+            "mobile_image": "shopify://shop_images/IMG_8359_7609c170-e2da-46e5-b8c9-1c2759cce1a4.jpg",
+            "mobile-caption-heading-size": 20,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "bottom",
             "image_overlay": "#262428",
             "image_overlay_opacity": 0,
-            "caption-text": "#242424",
-            "button-text": "#ffffff",
-            "button-background": "#242424",
-            "hover-button-background": "#9f9f9f"
+            "caption-text": "#ffffff",
+            "button-text": "#000000",
+            "button-background": "#ffffff",
+            "hover-button-background": "#ffffff"
           }
         }
       },
       "block_order": [
-        "image_iNnq8V"
+        "image_cVBYPi"
       ],
       "settings": {
         "desktop_height": "original",
-        "mobile_height": "original",
+        "mobile_height": "extra_large",
         "slide_navigation_style": "bars",
         "slide_transition_delay": 7
       }
@@ -704,7 +706,7 @@
     "featured_collection_16_fFCLQH",
     "image_slideshow_8ijpMy",
     "ss_media_grid_UwhWWx",
-    "image_slideshow_3GLD8V",
+    "image_slideshow_CYmK6y",
     "featured_collection_16_96Jh96",
     "ss_media_grid_kqCBPV"
   ]
