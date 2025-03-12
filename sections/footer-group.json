@@ -14,16 +14,40 @@
     "footer-main": {
       "type": "footer-main",
       "blocks": {
-        "social": {
-          "type": "social",
-          "disabled": true,
+        "text_9fbx98": {
+          "type": "text",
           "settings": {
-            "social_title": ""
+            "title": "Text details",
+            "richtext": "<p>Create a captivating brand story, explain details of your products or highlight store promotions</p>"
+          }
+        },
+        "menu_FK38U6": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "About",
+            "footer_linklist": "about-us"
+          }
+        },
+        "menu_T4YCXG": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Service",
+            "footer_linklist": "link-list-1"
+          }
+        },
+        "menu_yCRXYA": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Information",
+            "footer_linklist": "footer"
           }
         }
       },
       "block_order": [
-        "social"
+        "text_9fbx98",
+        "menu_FK38U6",
+        "menu_T4YCXG",
+        "menu_yCRXYA"
       ],
       "settings": {
         "alignment": "left"
@@ -35,7 +59,7 @@
         "show_methods_of_payment": true,
         "center_content_on_desktop": true,
         "footer_text": "",
-        "show_currency_selector": true,
+        "show_currency_selector": false,
         "show_locale_selector": false
       }
     }
