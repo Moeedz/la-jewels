@@ -211,26 +211,26 @@
         "image_UEbjkk": {
           "type": "image",
           "settings": {
-            "title": "",
+            "title": "ROYAL LUXURY",
             "text": "",
-            "first_button_label": "",
+            "first_button_label": "Discover",
             "first_button_link": "",
             "second_button_label": "",
             "second_button_link": "",
             "image": "shopify://shop_images/IMG_8437.jpg",
-            "desktop-caption-heading-size": 80,
+            "desktop-caption-heading-size": 56,
             "desktop-caption-body-text-size": 24,
-            "text_position": "center_left",
+            "text_position": "bottom",
             "mobile_image": "shopify://shop_images/IMG_8437_ec148498-e504-471e-ade9-a70d6acecdd3.jpg",
-            "mobile-caption-heading-size": 36,
-            "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": 20,
+            "mobile-caption-body-text-size": 12,
+            "mobile_text_position": "bottom",
             "image_overlay": "#262428",
             "image_overlay_opacity": 0,
-            "caption-text": "#242424",
-            "button-text": "#ffffff",
-            "button-background": "#242424",
-            "hover-button-background": "#9f9f9f"
+            "caption-text": "#ffffff",
+            "button-text": "#000000",
+            "button-background": "#ffffff",
+            "hover-button-background": "#ffffff"
           }
         }
       },
