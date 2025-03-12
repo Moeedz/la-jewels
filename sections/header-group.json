@@ -17,7 +17,7 @@
         "00-announcement": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "Announce something here",
+            "announcement_text": "2 YEARS WORLDWIDE WARRANTY",
             "announcement_bg_color": "#000000",
             "announcement_text_color": "#ffffff"
           }
@@ -25,7 +25,7 @@
         "01-announcement": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "Promote special offers or discounts",
+            "announcement_text": "FREE SHIPPING ABOVE 125$",
             "announcement_bg_color": "#000000",
             "announcement_text_color": "#ffffff"
           }
