@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "announcement_text": "Announce something here",
-            "announcement_bg_color": "#262428",
+            "announcement_bg_color": "#000000",
             "announcement_text_color": "#ffffff"
           }
         },
@@ -26,34 +26,15 @@
           "type": "announcement",
           "settings": {
             "announcement_text": "Promote special offers or discounts",
-            "announcement_bg_color": "#f9f9fb",
-            "announcement_text_color": "#262428"
-          }
-        },
-        "02-announcement": {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Highlight news, events, or updates",
-            "announcement_bg_color": "#e6e5e7",
-            "announcement_text_color": "#262428"
-          }
-        },
-        "03-announcement": {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Boost sales with targeted offers",
-            "announcement_bg_color": "#f9f9fb",
-            "announcement_text_color": "#262428"
+            "announcement_bg_color": "#000000",
+            "announcement_text_color": "#ffffff"
           }
         }
       },
       "block_order": [
         "00-announcement",
-        "01-announcement",
-        "02-announcement",
-        "03-announcement"
+        "01-announcement"
       ],
-      "disabled": true,
       "settings": {
         "desktop_social_icons": true
       }
