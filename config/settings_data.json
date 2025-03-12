@@ -67,7 +67,7 @@
     "sm_x_link": "",
     "sm_instagram_link": "https://www.instagram.com/la.vie.jewels?igsh=MWx1ajh4M3gxZ3pzcw==",
     "enable_breadcrumbs": false,
-    "popup--enable": true,
+    "popup--enable": false,
     "pop-up-text-header-text": "Subscribe to our newsletter",
     "pop-up-text-description-text": "<p>Join our creative community</p>",
     "desktop-popup-style": "slide-up",
