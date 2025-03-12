@@ -378,6 +378,9 @@
         "image_MUDFWY",
         "image_7yPJf3"
       ],
+      "custom_css": [
+        ".media-grid-items-template--20848120168653__ss_media_grid_UwhWWx a {border: solid 1px white !important; padding: 5px 35px !important;}"
+      ],
       "settings": {
         "items_gap": 20,
         "items_gap_mobile": 6,
