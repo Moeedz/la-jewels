@@ -1,6 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
 <head>
+  {% if template contains 'collection' %} 
+<style>
+.shopify-section {
+    max-width: 100% !important;
+}
+    </style>
+{% endif %}
   <style>
     .label-font, .spr-form-label {
     text-transform: unset !important;
