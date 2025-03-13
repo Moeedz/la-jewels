@@ -16,7 +16,7 @@
         "url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "desktopHeight": "fullscreen",
         "mobileHeight": "fullscreen",
-        "title": "DISCOVERY",
+        "title": "",
         "subheading": "",
         "textAlignment": "bottom-center",
         "textColor": "#ffffff",
@@ -24,9 +24,9 @@
         "heading--text-size": 50,
         "subheading--text-size": 24,
         "link": "",
-        "button_label": "",
-        "button-text": "#ffffff",
-        "button-background": "#262428",
+        "button_label": "DISCOVER",
+        "button-text": "#000000",
+        "button-background": "#ffffff",
         "hover-button-text": "#ffffff",
         "hover-button-background": "#494949"
       }
