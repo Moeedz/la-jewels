@@ -1,6 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
 <head>
+ {% if template contains 'product' %} 
+  <style>
+.wrapper-padded.product-form-vue.main-page-container.product-section {
+    max-width: 100% !important;
+}
+    </style>
+   {% endif %}
   {% if template contains 'collection' %} 
 <style>
 .shopify-section {
