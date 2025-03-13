@@ -133,6 +133,9 @@
         "content_g9rCUD",
         "content_4ex99q"
       ],
+      "custom_css": [
+        ".mega-menu--links {grid-template-columns: repeat(2, 1fr) !important;}"
+      ],
       "settings": {
         "sticky_header": true,
         "enable_search": true,
