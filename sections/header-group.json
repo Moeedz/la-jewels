@@ -111,8 +111,8 @@
       "settings": {
         "sticky_header": true,
         "enable_search": true,
-        "logo": "shopify://shop_images/la.vie_website_-2_ef8d94d3-d5d9-480f-be91-c65f4fbfb8d5.png",
-        "logo-placement": "above",
+        "logo": "shopify://shop_images/image_16.jpg",
+        "logo-placement": "left",
         "logo_max_width": 235,
         "logo_max_width_mobile": 150,
         "logo_padding": 15,
