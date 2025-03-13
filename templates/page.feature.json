@@ -15,9 +15,84 @@
         "page_title_enabled": true,
         "page_width": "full-width"
       }
+    },
+    "ss_video_with_text_6rWTge": {
+      "type": "ss-video-with-text",
+      "blocks": {
+        "heading_CEzGii": {
+          "type": "heading",
+          "settings": {
+            "heading": "“LA.VIE” WITH SENSE OF RUTUAL",
+            "heading_custom": false,
+            "heading_font": "assistant_n4",
+            "header_size": 32,
+            "font_weight": "600",
+            "heading_height": 100,
+            "heading_mt": 0,
+            "heading_color": "#000000"
+          }
+        },
+        "text_AcaHt6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La.vie Jewels firmly believes that the beauty of life comes from cherishing the sense of ritual. Whether it’s the heartbeat of Valentine’s Day, the gentle whispers of Mother’s Day, or the warmth of reunion at Christmas, we create unique packaging for each festerival. Let gift-giving no longer just be a formality, but condense your heart into an elegant gesture. From jewelry to packaging, La.vie delivers silent romance with exquisite design, making every gift a treasure worth remembering over and over again.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 20,
+            "text_height": 100,
+            "text_mt": 0,
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CEzGii",
+        "text_AcaHt6"
+      ],
+      "settings": {
+        "media": "video",
+        "image_height": "adapt",
+        "desktop_image_width": "50",
+        "image_radius": 12,
+        "layout": "text_first",
+        "video": "shopify://files/videos/feautre video.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "icon_play_size": 30,
+        "video_controls": true,
+        "video_autoplay": false,
+        "video_loop": false,
+        "desktop_content_alignment": "left",
+        "content_padding_top": 0,
+        "content_padding_bottom": 0,
+        "content_padding_horizontal": 5,
+        "content_padding_horizontal_mobile": 0,
+        "content_spacing": 20,
+        "mobile_content_alignment": "center",
+        "wrapper_border": false,
+        "content_border_thickness": 1,
+        "border_radius": 20,
+        "padding_inside": 20,
+        "shadow": false,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_background_color": "#ffffff",
+        "content_border_color": "#D3D3D3",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_layout": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ss_video_with_text_6rWTge"
   ]
 }
