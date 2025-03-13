@@ -9,15 +9,61 @@
  */
 {
   "sections": {
+    "section_contact_form_jATeNg": {
+      "type": "section--contact-form",
+      "blocks": {
+        "name_input_e9aBYD": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "email_input_UrMcnY": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "tel_input_awjNcK": {
+          "type": "tel_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "message_input_WBhi3e": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input_e9aBYD",
+        "email_input_UrMcnY",
+        "tel_input_awjNcK",
+        "message_input_WBhi3e"
+      ],
+      "settings": {
+        "section_color_scheme": "white",
+        "form_width": "narrow",
+        "form_title": "Contact us",
+        "form_description": "<p>Have a question, or want a product recommendation? Get in touch.</p>"
+      }
+    },
     "main": {
       "type": "template--page",
       "settings": {
-        "page_title_enabled": true,
+        "page_title_enabled": false,
         "page_width": "full-width"
       }
     }
   },
   "order": [
+    "section_contact_form_jATeNg",
     "main"
   ]
 }
