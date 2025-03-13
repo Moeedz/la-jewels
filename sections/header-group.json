@@ -46,6 +46,7 @@
           "type": "content",
           "settings": {
             "mega-menu": "首飾",
+            "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -66,6 +67,7 @@
           "type": "content",
           "settings": {
             "mega-menu": "GIFTS",
+            "mega_image_1": "shopify://shop_images/PHOTO-2025-01-14-23-09-25.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -86,6 +88,7 @@
           "type": "content",
           "settings": {
             "mega-menu": "ABOUT US",
+            "mega_image_1": "shopify://shop_images/2025-03-06_7.26.47.png",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
