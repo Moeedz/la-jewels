@@ -17,7 +17,7 @@
         "00-announcement": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "2 YEARS WORLDWIDE WARRANTY",
+            "announcement_text": "5 YEARS WORLDWIDE WARRANTY",
             "announcement_bg_color": "#000000",
             "announcement_text_color": "#ffffff"
           }
