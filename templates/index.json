@@ -23,7 +23,7 @@
         "textShadow": false,
         "heading--text-size": 50,
         "subheading--text-size": 24,
-        "link": "shopify://collections",
+        "link": "shopify://collections/new-in",
         "button_label": "DISCOVER",
         "button-text": "#000000",
         "button-background": "#ffffff",
