@@ -102,8 +102,8 @@
             "icon": "measuring_tape",
             "heading": "size guide",
             "open_close_icon": "caret",
-            "text": "<p>Share some information about your product</p>",
-            "page": "",
+            "text": "",
+            "page": "size-chart-photo",
             "open_by_default": false,
             "margin_bottom": 0
           }
