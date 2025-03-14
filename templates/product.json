@@ -74,6 +74,33 @@
             "margin_bottom": 20
           }
         },
+        "text_with_icon_TpwD7G": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "wallet",
+            "text": "2 Years Warranty",
+            "link": "",
+            "margin_bottom": 0
+          }
+        },
+        "text_with_icon_bkatrb": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "recycle",
+            "text": "30 Days Exchange & Return",
+            "link": "",
+            "margin_bottom": 0
+          }
+        },
+        "text_with_icon_p4LVHL": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "truck",
+            "text": "Free Shipping above 125$",
+            "link": "",
+            "margin_bottom": 15
+          }
+        },
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2": {
           "type": "product-description",
           "settings": {
@@ -148,6 +175,9 @@
         "quantity",
         "2f3ddc8d-6514-403d-a884-88c9a0294300",
         "buy_buttons",
+        "text_with_icon_TpwD7G",
+        "text_with_icon_bkatrb",
+        "text_with_icon_p4LVHL",
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2",
         "sku_AdnYLy",
         "b0c19132-8e54-4664-b8ce-0a8c7f1f7737",
