@@ -100,7 +100,7 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "measuring_tape",
-            "heading": "size guide",
+            "heading": "Size Guide",
             "open_close_icon": "caret",
             "text": "",
             "page": "size-chart-photo",
