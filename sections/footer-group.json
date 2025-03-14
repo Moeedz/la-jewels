@@ -53,6 +53,15 @@
         "alignment": "left"
       }
     },
+    "newsletter_newsletter_D3eL6T": {
+      "type": "newsletter--newsletter",
+      "custom_css": [],
+      "settings": {
+        "colors": "white",
+        "newsletter_heading": "Join our Mailing List",
+        "newsletter_description": ""
+      }
+    },
     "footer-bottom": {
       "type": "footer-bottom",
       "custom_css": [
@@ -69,6 +78,7 @@
   },
   "order": [
     "footer-main",
+    "newsletter_newsletter_D3eL6T",
     "footer-bottom"
   ]
 }
