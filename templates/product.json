@@ -245,7 +245,7 @@
         "product_card_quick_shop_Xcew36"
       ],
       "custom_css": [
-        "h2 {font-size: 24px; text-align: left;}"
+        "h2 {font-size: 24px; text-align: middle;}"
       ],
       "settings": {
         "product_recommendations_heading": "You may also like"
