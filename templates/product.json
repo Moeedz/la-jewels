@@ -39,8 +39,8 @@
           "settings": {
             "hide_out_of_stock_variants": false,
             "variant_style": "swatches",
-            "thumbnail_changes_variant": false,
-            "size_guide_page": "about-us",
+            "thumbnail_changes_variant": true,
+            "size_guide_page": "size-chart-photo",
             "size_option_name": "",
             "margin_bottom": 20
           }
