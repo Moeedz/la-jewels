@@ -40,8 +40,8 @@
             "hide_out_of_stock_variants": false,
             "variant_style": "swatches",
             "thumbnail_changes_variant": false,
-            "size_guide_page": "戒指尺寸",
-            "size_option_name": "Size",
+            "size_guide_page": "about-us",
+            "size_option_name": "",
             "margin_bottom": 20
           }
         },
