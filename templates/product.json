@@ -88,7 +88,7 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "info",
-            "heading": "details",
+            "heading": "Details",
             "open_close_icon": "caret",
             "text": "<p>Share some information about your product</p>",
             "page": "",
@@ -112,7 +112,7 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "service",
-            "heading": "assistance",
+            "heading": "Assistance",
             "open_close_icon": "caret",
             "text": "<p>Share some information about your product</p>",
             "page": "",
