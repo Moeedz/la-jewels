@@ -25,7 +25,7 @@
         "01-announcement": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "FREE SHIPPING ABOVE 125$",
+            "announcement_text": "FREE SHIPPING ABOVE USD125/ HKD1000",
             "announcement_bg_color": "#000000",
             "announcement_text_color": "#ffffff"
           }
