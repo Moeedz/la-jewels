@@ -123,7 +123,7 @@
             "icon": "info",
             "heading": "DELIVERY",
             "open_close_icon": "caret",
-            "text": "<p>Share some information about your product</p>",
+            "text": "<p>Delivery time depends on the products you order.</p><ul><li>Non-customized products: You will receive your order within 3 days.</li><li>Personalised/customised products: You will receive your order within 3-4 weeks.</li></ul><p>Free shipping for any purchase over US125/ HKD1000</p><p>Hong Kong & Macau: We use SF Express, and the delivery days are Monday to Saturday.</p><p>Overseas: By Hong Kong Post Express, delivery days are Monday to Friday.</p>",
             "page": "",
             "open_by_default": false,
             "margin_bottom": 0
