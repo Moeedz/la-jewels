@@ -57,7 +57,7 @@
         "text_AcaHt6"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {p.image-with-text-template--20852230062285__ss_video_with_text_6rWTge__heading.image-with-text-template--20852230062285__ss_video_with_text_6rWTge__heading-heading_CEzGii {padding-top: 40px !important; }}"
+        "@media screen and (max-width: 767px) {p.image-with-text-template--20852230062285__ss_video_with_text_6rWTge__heading.image-with-text-template--20852230062285__ss_video_with_text_6rWTge__heading-heading_CEzGii {padding-top: 40px !important; } .image-with-text-template--20852230062285__ss_video_with_text_6rWTge__media-item.image-with-text-template--20852230062285__ss_video_with_text_6rWTge__media-item--50.grid__item {padding-left: 0 !important;}}"
       ],
       "settings": {
         "media": "video",
