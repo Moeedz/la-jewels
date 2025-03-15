@@ -244,7 +244,8 @@
         "content_tgnKUg"
       ],
       "custom_css": [
-        ".mega-menu--links {grid-template-columns: repeat(2, 1fr) !important;}"
+        ".mega-menu--links {grid-template-columns: repeat(2, 1fr) !important;}",
+        ".mobile-nav__item.top-level a.mobile-nav__link {font-size: 15px; font-weight: 100 !important;}"
       ],
       "settings": {
         "sticky_header": true,
