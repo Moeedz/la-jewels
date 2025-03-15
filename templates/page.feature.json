@@ -418,7 +418,7 @@
         "slide_gap": 70,
         "slide_gap_mobile": 24,
         "content_horizontal_align": "start",
-        "content_horizontal_align_mobile": "center",
+        "content_horizontal_align_mobile": "start",
         "content_mt": 0,
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
