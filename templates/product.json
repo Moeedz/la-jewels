@@ -96,7 +96,7 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "truck",
-            "text": "Free Shipping above 125$",
+            "text": "Free Shipping above US125/ HKD1000",
             "link": "",
             "margin_bottom": 15
           }
@@ -121,22 +121,10 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "info",
-            "heading": "Details",
+            "heading": "DELIVERY",
             "open_close_icon": "caret",
             "text": "<p>Share some information about your product</p>",
             "page": "",
-            "open_by_default": false,
-            "margin_bottom": 0
-          }
-        },
-        "9c341458-2d2c-4317-a2cc-346e220f53e0": {
-          "type": "collapsible-tab",
-          "settings": {
-            "icon": "measuring_tape",
-            "heading": "Size Guide",
-            "open_close_icon": "caret",
-            "text": "",
-            "page": "size-chart-photo",
             "open_by_default": false,
             "margin_bottom": 0
           }
@@ -145,12 +133,24 @@
           "type": "collapsible-tab",
           "settings": {
             "icon": "service",
-            "heading": "Assistance",
+            "heading": "EXCHANGE & RETURN",
             "open_close_icon": "caret",
             "text": "<p>Share some information about your product</p>",
             "page": "",
             "open_by_default": false,
             "margin_bottom": 40
+          }
+        },
+        "9c341458-2d2c-4317-a2cc-346e220f53e0": {
+          "type": "collapsible-tab",
+          "settings": {
+            "icon": "measuring_tape",
+            "heading": "SIZE GUIDE",
+            "open_close_icon": "caret",
+            "text": "",
+            "page": "size-chart-photo",
+            "open_by_default": false,
+            "margin_bottom": 0
           }
         },
         "fbfe241f-1b44-41cd-ae22-e866bdad9aaf": {
@@ -181,8 +181,8 @@
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2",
         "sku_AdnYLy",
         "b0c19132-8e54-4664-b8ce-0a8c7f1f7737",
-        "9c341458-2d2c-4317-a2cc-346e220f53e0",
         "b3864090-4f25-4db2-bddb-c549e9472be6",
+        "9c341458-2d2c-4317-a2cc-346e220f53e0",
         "fbfe241f-1b44-41cd-ae22-e866bdad9aaf"
       ],
       "settings": {
