@@ -135,7 +135,7 @@
             "icon": "service",
             "heading": "EXCHANGE & RETURN",
             "open_close_icon": "caret",
-            "text": "<p>Share some information about your product</p>",
+            "text": "<p>Our premium silver jewelry is meticulously handcrafted at our production facilities, with every step of the process carefully supervised by our dedicated teams. Each piece is brought to life by a skilled artisan who invests time and unwavering focus into their work. The true enchantment lies in the intricate details.</p>",
             "page": "",
             "open_by_default": false,
             "margin_bottom": 0
@@ -159,7 +159,7 @@
             "icon": "crown",
             "heading": "LIFETIME CLEANING SERVICE",
             "open_close_icon": "caret",
-            "text": "<p>Share some information about your product</p>",
+            "text": "<p>We offer complimentary professional cleaning service in our shops.</p>",
             "page": "",
             "open_by_default": false,
             "margin_bottom": 0
