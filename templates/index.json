@@ -98,13 +98,13 @@
         "p.featured-title-template--20848120168653__featured_collection_16_fFCLQH {font-weight: normal !important;}"
       ],
       "settings": {
-        "heading": "",
+        "heading": "<p>BEST SELLERS</p>",
         "heading_custom": false,
         "heading_font": "sans-serif",
-        "heading_size": 40,
+        "heading_size": 30,
         "heading_size_mobile": 32,
         "heading_height": 130,
-        "heading_align": "left",
+        "heading_align": "center",
         "heading_align_mobile": "left",
         "collection": "frontpage",
         "collection_show": 10,
