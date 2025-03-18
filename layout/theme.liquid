@@ -68,6 +68,22 @@ div#ts-switcher {
 }
     }
   </style>
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+    function applyStyles() {
+        if (window.scrollY > 50 && window.innerWidth <= 768) {
+            document.querySelectorAll("div#ts-switcher svg.ts-icon--caret-down").forEach(el => {
+                el.style.fill = "black";
+            });
+            document.querySelectorAll(".ts-switcher-btn__icon svg path").forEach(el => {
+                el.style.fill = "black";
+            });
+        }
+    }
+
+    window.addEventListener("scroll", applyStyles);
+});
+      </script>
   <!-- Basic page needs ================================================== -->
   <meta charset="utf-8">
   {%- comment -%}DemoStoreRequirements{%- endcomment -%}
