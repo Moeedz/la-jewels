@@ -78,6 +78,13 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll(".ts-switcher-btn__icon svg path").forEach(el => {
                 el.style.fill = "black";
             });
+        } else if (window.scrollY <= 50 && window.innerWidth <= 768) {
+            document.querySelectorAll("div#ts-switcher svg.ts-icon--caret-down").forEach(el => {
+                el.style.fill = "white";
+            });
+            document.querySelectorAll(".ts-switcher-btn__icon svg path").forEach(el => {
+                el.style.fill = "white";
+            });
         }
     }
 
