@@ -86,6 +86,11 @@
         "type": "shopify://apps/myshop-whatsapp-button/blocks/widget/a5ad5d7c-50b7-4654-8fba-63fd50479f7d",
         "disabled": true,
         "settings": {}
+      },
+      "6603664506335945664": {
+        "type": "shopify://apps/transtore-language-translate/blocks/switcher_embed_block/afeffe82-e563-4f78-90f4-f1e3d96286c3",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
