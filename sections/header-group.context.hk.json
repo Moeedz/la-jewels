@@ -12,5 +12,12 @@
   "context": {
     "market": "hk"
   },
-  "sections": {}
+  "sections": {
+    "header": {
+      "settings": {
+        "show_locale_selector": true
+      },
+      "blocks": {}
+    }
+  }
 }
