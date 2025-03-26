@@ -129,6 +129,7 @@
         },
         "content_g9rCUD": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "GIFTS",
             "mega_image_1": "shopify://shop_images/PHOTO-2025-01-14-23-09-25.jpg",
