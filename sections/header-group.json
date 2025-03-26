@@ -44,6 +44,7 @@
       "blocks": {
         "content_DDNtKD": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "首飾",
             "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
@@ -63,8 +64,29 @@
             "show_promo_2_in_mobile_drawer": true
           }
         },
+        "content_864WYG": {
+          "type": "content",
+          "settings": {
+            "mega-menu": "",
+            "image_1_aspect_ratio": "square",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#FFFFFF",
+            "mega_image_link_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "image_2_aspect_ratio": "square",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#FFFFFF",
+            "mega_image_link_2": "",
+            "show_promo_2_in_mobile_drawer": true
+          }
+        },
         "content_n78j8Y": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "bijoux",
             "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
@@ -234,6 +256,7 @@
       },
       "block_order": [
         "content_DDNtKD",
+        "content_864WYG",
         "content_n78j8Y",
         "content_nJ4Pce",
         "content_g9rCUD",
@@ -266,7 +289,7 @@
         "overlay_logo": "shopify://shop_images/teri_maki_ankh.png",
         "overlay_opacity": 0,
         "show_currency_selector": true,
-        "show_locale_selector": false,
+        "show_locale_selector": true,
         "main_linklist": "link-list",
         "dropdown_alignment": "left"
       }
