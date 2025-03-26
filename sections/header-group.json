@@ -44,7 +44,6 @@
       "blocks": {
         "content_DDNtKD": {
           "type": "content",
-          "disabled": true,
           "settings": {
             "mega-menu": "首飾",
             "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
@@ -108,6 +107,7 @@
         },
         "content_nJ4Pce": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "JEWELLERY",
             "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
@@ -129,7 +129,6 @@
         },
         "content_g9rCUD": {
           "type": "content",
-          "disabled": true,
           "settings": {
             "mega-menu": "GIFTS",
             "mega_image_1": "shopify://shop_images/PHOTO-2025-01-14-23-09-25.jpg",
@@ -151,6 +150,7 @@
         },
         "content_KEXLYV": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "CADEAUX",
             "mega_image_1": "shopify://shop_images/PHOTO-2025-01-14-23-09-25.jpg",
@@ -172,6 +172,7 @@
         },
         "content_HxLh6k": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "送禮",
             "mega_image_1": "shopify://shop_images/PHOTO-2025-01-14-23-09-25.jpg",
@@ -214,6 +215,7 @@
         },
         "content_BKAV4k": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "QUI SOMMES-NOUS",
             "mega_image_1": "shopify://shop_images/2025-03-06_7.26.47.png",
@@ -235,6 +237,7 @@
         },
         "content_tgnKUg": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "mega-menu": "關於我們",
             "mega_image_1": "shopify://shop_images/2025-03-06_7.26.47.png",
