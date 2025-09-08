@@ -618,16 +618,6 @@
     "text_testimonials_39j7Mh": {
       "type": "text--testimonials",
       "blocks": {
-        "text_Hh6YtY": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/503806415_1687493425241288_148994468006331710_n.jpg",
-            "testimonial_text": "<p>款式獨特又新穎, 我本身好鍾意買首飾, 佢哋嘅款我喺出面真係見唔到心心戒指好靚好特別店主好有Heart, 值得推薦的首飾店</p>",
-            "customer_name": "Daleyza Amiyah",
-            "link": "https://www.facebook.com/photo.php?fbid=1687493421907955&set=a.800554410601865&type=3",
-            "stars": 5
-          }
-        },
         "text_jcH8Wj": {
           "type": "text",
           "settings": {
@@ -648,6 +638,16 @@
             "stars": 5
           }
         },
+        "text_Hh6YtY": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/503806415_1687493425241288_148994468006331710_n.jpg",
+            "testimonial_text": "<p>款式獨特又新穎, 我本身好鍾意買首飾, 佢哋嘅款我喺出面真係見唔到心心戒指好靚好特別店主好有Heart, 值得推薦的首飾店</p>",
+            "customer_name": "Daleyza Amiyah",
+            "link": "https://www.facebook.com/photo.php?fbid=1687493421907955&set=a.800554410601865&type=3",
+            "stars": 5
+          }
+        },
         "text_BxDYrx": {
           "type": "text",
           "settings": {
@@ -660,9 +660,9 @@
         }
       },
       "block_order": [
-        "text_Hh6YtY",
         "text_jcH8Wj",
         "text_b3XFpg",
+        "text_Hh6YtY",
         "text_BxDYrx"
       ],
       "custom_css": [],
