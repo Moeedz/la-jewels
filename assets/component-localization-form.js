@@ -19,7 +19,11 @@ if (!isDefined) {
       this.elements.button.addEventListener('blur', this.closeSelector.bind(this));
       this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
 
-      this.querySelectorAll('a').forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
+      this.querySelectorAll('a').forEach(item => {
+        item.addEventListener('click', this.onItemClick.bind(this));
+        // Add touch event for better iOS support
+        item.addEventListener('touchend', this.onItemClick.bind(this));
+      });
     }
 
 
@@ -37,9 +41,20 @@ if (!isDefined) {
 
     onItemClick(event) {
       event.preventDefault();
+      event.stopPropagation(); // Prevent double firing on iOS
+      
       const form = this.querySelector('form');
       this.elements.input.value = event.currentTarget.dataset.value;
-      if (form) form.submit();
+      
+      if (form) {
+        // Use requestSubmit() for iOS compatibility
+        // Falls back to submit() for older browsers
+        if (typeof form.requestSubmit === 'function') {
+          form.requestSubmit();
+        } else {
+          form.submit();
+        }
+      }
     }
 
     openSelector() {
