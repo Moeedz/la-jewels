@@ -42,41 +42,28 @@ if (!isDefined) {
     onItemClick(event) {
       event.preventDefault();
       
-      // Prevent double-firing on touch devices
+      // Prevent double-firing
       if (this.hasSubmitted) {
         return;
       }
       this.hasSubmitted = true;
       
       const form = this.querySelector('form');
-      this.elements.input.value = event.currentTarget.dataset.value;
+      const selectedValue = event.currentTarget.dataset.value;
+      
+      // Update the hidden input
+      this.elements.input.value = selectedValue;
       
       if (form) {
-        // Create a real submit button positioned offscreen (not hidden with display:none)
-        // This ensures it works on all Safari versions
-        const submitButton = document.createElement('button');
-        submitButton.type = 'submit';
-        submitButton.style.position = 'absolute';
-        submitButton.style.left = '-9999px';
-        submitButton.style.width = '1px';
-        submitButton.style.height = '1px';
-        submitButton.setAttribute('tabindex', '-1');
-        submitButton.setAttribute('aria-hidden', 'true');
+        // Create form data and construct the URL manually
+        const formData = new FormData(form);
+        const params = new URLSearchParams(formData);
         
-        form.appendChild(submitButton);
-        
-        // Use setTimeout to ensure the button is in the DOM
-        setTimeout(() => {
-          submitButton.click();
-          setTimeout(() => {
-            if (form.contains(submitButton)) {
-              form.removeChild(submitButton);
-            }
-          }, 100);
-        }, 0);
+        // Redirect directly - this works 100% on all browsers
+        window.location.href = `${form.action}?${params.toString()}`;
       }
       
-      // Reset flag after delay
+      // Reset flag
       setTimeout(() => {
         this.hasSubmitted = false;
       }, 1000);
