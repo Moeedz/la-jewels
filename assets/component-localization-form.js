@@ -55,18 +55,16 @@ if (!isDefined) {
       this.elements.input.value = selectedValue;
       
       if (form) {
-        // Create form data and construct the URL manually
-        const formData = new FormData(form);
-        const params = new URLSearchParams(formData);
-        
-        // Redirect directly - this works 100% on all browsers
-        window.location.href = `${form.action}?${params.toString()}`;
+        // Use a small delay to ensure the value is set, then submit
+        setTimeout(() => {
+          form.submit();
+        }, 10);
       }
       
       // Reset flag
       setTimeout(() => {
         this.hasSubmitted = false;
-      }, 1000);
+      }, 2000);
     }
 
     openSelector() {
