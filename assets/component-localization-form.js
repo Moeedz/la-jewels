@@ -20,7 +20,9 @@ if (!isDefined) {
       this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
 
       this.querySelectorAll('a').forEach(item => {
+        // Handle both click and touch events for iOS compatibility
         item.addEventListener('click', this.onItemClick.bind(this));
+        item.addEventListener('touchstart', this.onItemClick.bind(this), { passive: true });
       });
     }
 
@@ -39,6 +41,11 @@ if (!isDefined) {
 
     onItemClick(event) {
       event.preventDefault();
+      
+      // Prevent double-firing on touch devices
+      if (event.type === 'touchstart') {
+        event.currentTarget.removeEventListener('click', this.onItemClick);
+      }
       
       const form = this.querySelector('form');
       this.elements.input.value = event.currentTarget.dataset.value;
