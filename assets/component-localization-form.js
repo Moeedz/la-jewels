@@ -21,8 +21,6 @@ if (!isDefined) {
 
       this.querySelectorAll('a').forEach(item => {
         item.addEventListener('click', this.onItemClick.bind(this));
-        // Add touch event for better iOS support
-        item.addEventListener('touchend', this.onItemClick.bind(this));
       });
     }
 
@@ -41,19 +39,18 @@ if (!isDefined) {
 
     onItemClick(event) {
       event.preventDefault();
-      event.stopPropagation(); // Prevent double firing on iOS
       
       const form = this.querySelector('form');
       this.elements.input.value = event.currentTarget.dataset.value;
       
       if (form) {
-        // Use requestSubmit() for iOS compatibility
-        // Falls back to submit() for older browsers
-        if (typeof form.requestSubmit === 'function') {
-          form.requestSubmit();
-        } else {
-          form.submit();
-        }
+        // Create and click a hidden submit button for Safari compatibility
+        const submitButton = document.createElement('button');
+        submitButton.type = 'submit';
+        submitButton.style.display = 'none';
+        form.appendChild(submitButton);
+        submitButton.click();
+        form.removeChild(submitButton);
       }
     }
 
