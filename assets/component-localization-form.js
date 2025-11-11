@@ -8,6 +8,7 @@ if (!isDefined) {
       super();
 
       this.thing = 0;
+      this.hasSubmitted = false;
 
       this.elements = {
         input: this.querySelector('input[name="language_code"],input[name="country_code"]'),
@@ -20,9 +21,8 @@ if (!isDefined) {
       this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
 
       this.querySelectorAll('a').forEach(item => {
-        // Handle both click and touch events for iOS compatibility
         item.addEventListener('click', this.onItemClick.bind(this));
-        item.addEventListener('touchstart', this.onItemClick.bind(this), { passive: true });
+        item.addEventListener('touchend', this.onItemClick.bind(this));
       });
     }
 
@@ -42,10 +42,11 @@ if (!isDefined) {
     onItemClick(event) {
       event.preventDefault();
       
-      // Prevent double-firing on touch devices
-      if (event.type === 'touchstart') {
-        event.currentTarget.removeEventListener('click', this.onItemClick);
+      // Prevent double-firing on touch devices (touchend + click)
+      if (this.hasSubmitted) {
+        return;
       }
+      this.hasSubmitted = true;
       
       const form = this.querySelector('form');
       this.elements.input.value = event.currentTarget.dataset.value;
@@ -59,6 +60,11 @@ if (!isDefined) {
         submitButton.click();
         form.removeChild(submitButton);
       }
+      
+      // Reset flag after a short delay in case submission fails
+      setTimeout(() => {
+        this.hasSubmitted = false;
+      }, 1000);
     }
 
     openSelector() {
