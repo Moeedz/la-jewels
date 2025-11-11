@@ -42,7 +42,7 @@ if (!isDefined) {
     onItemClick(event) {
       event.preventDefault();
       
-      // Prevent double-firing on touch devices (touchend + click)
+      // Prevent double-firing on touch devices
       if (this.hasSubmitted) {
         return;
       }
@@ -52,16 +52,31 @@ if (!isDefined) {
       this.elements.input.value = event.currentTarget.dataset.value;
       
       if (form) {
-        // Create and click a hidden submit button for Safari compatibility
+        // Create a real submit button positioned offscreen (not hidden with display:none)
+        // This ensures it works on all Safari versions
         const submitButton = document.createElement('button');
         submitButton.type = 'submit';
-        submitButton.style.display = 'none';
+        submitButton.style.position = 'absolute';
+        submitButton.style.left = '-9999px';
+        submitButton.style.width = '1px';
+        submitButton.style.height = '1px';
+        submitButton.setAttribute('tabindex', '-1');
+        submitButton.setAttribute('aria-hidden', 'true');
+        
         form.appendChild(submitButton);
-        submitButton.click();
-        form.removeChild(submitButton);
+        
+        // Use setTimeout to ensure the button is in the DOM
+        setTimeout(() => {
+          submitButton.click();
+          setTimeout(() => {
+            if (form.contains(submitButton)) {
+              form.removeChild(submitButton);
+            }
+          }, 100);
+        }, 0);
       }
       
-      // Reset flag after a short delay in case submission fails
+      // Reset flag after delay
       setTimeout(() => {
         this.hasSubmitted = false;
       }, 1000);
