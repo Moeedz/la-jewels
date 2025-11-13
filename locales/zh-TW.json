@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -468,6 +477,15 @@
       "store_owner_html": "<a href=\"/admin\">在這裡登入</a>",
       "continue": "繼續",
       "powered_by_html": "本商店將由 <a href=\"http://www.shopify.com\">Shopify</a> 提供技術支持"
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "pay_pal": {
+        "errors": {
+          "generic": "PayPal 出現問題。請重試或使用其他付款方式。"
+        }
+      }
     }
   }
 }
