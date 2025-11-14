@@ -106,7 +106,7 @@
         "heading_height": 130,
         "heading_align": "center",
         "heading_align_mobile": "center",
-        "collection": "frontpage",
+        "collection": "new-arrival",
         "collection_show": 10,
         "slider_view": 4,
         "slider_view_mobile": 1.2,
@@ -248,10 +248,10 @@
     "ss_media_grid_UwhWWx": {
       "type": "ss-media-grid",
       "blocks": {
-        "image_YepWbn": {
+        "image_MUDFWY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2025-01-28_4.57.23.png",
+            "image": "shopify://shop_images/67.jpg",
             "image_overlay": 0,
             "image_radius": 0,
             "heading": "",
@@ -259,8 +259,8 @@
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "NECKLACES",
-            "link_url": "shopify://collections/necklace",
+            "link": "EARRINGS",
+            "link_url": "shopify://collections/earring",
             "link_custom": false,
             "link_font": "assistant_n4",
             "link_size": 20,
@@ -310,10 +310,10 @@
             "overlay_color": "#000000"
           }
         },
-        "image_MUDFWY": {
+        "image_YepWbn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC06155.jpg",
+            "image": "shopify://shop_images/2025-01-28_4.57.23.png",
             "image_overlay": 0,
             "image_radius": 0,
             "heading": "",
@@ -321,8 +321,8 @@
             "heading_font": "assistant_n4",
             "heading_size": 32,
             "heading_height": 100,
-            "link": "EARRINGS",
-            "link_url": "shopify://collections/earring",
+            "link": "NECKLACES",
+            "link_url": "shopify://collections/necklace",
             "link_custom": false,
             "link_font": "assistant_n4",
             "link_size": 20,
@@ -374,9 +374,9 @@
         }
       },
       "block_order": [
-        "image_YepWbn",
-        "image_Q4pnTy",
         "image_MUDFWY",
+        "image_Q4pnTy",
+        "image_YepWbn",
         "image_7yPJf3"
       ],
       "custom_css": [
