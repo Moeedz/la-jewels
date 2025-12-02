@@ -53,7 +53,7 @@
         "overlay_opacity": 0,
         "text_alignment": "center",
         "text_color": "#262428",
-        "background_color": "#E6E5E7"
+        "background_color": "#e6e5e7"
       }
     },
     "main": {
@@ -96,8 +96,11 @@
         "show_title": false,
         "layout": "preview",
         "items_per_row": 4,
-        "show_options": "all",
-        "selected_collections": []
+        "show_options": "selected",
+        "selected_collections": [
+          "for-him",
+          "frontpage"
+        ]
       }
     }
   },
