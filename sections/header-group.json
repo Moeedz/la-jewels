@@ -63,6 +63,27 @@
             "show_promo_2_in_mobile_drawer": true
           }
         },
+        "content_rKnnyP": {
+          "type": "content",
+          "settings": {
+            "mega-menu": "TAILOR-MADE",
+            "mega_image_1": "shopify://shop_images/DSC09308.jpg",
+            "image_1_aspect_ratio": "square",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#ffffff",
+            "mega_image_link_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "image_2_aspect_ratio": "square",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#ffffff",
+            "mega_image_link_2": "",
+            "show_promo_2_in_mobile_drawer": true
+          }
+        },
         "content_864WYG": {
           "type": "content",
           "settings": {
@@ -260,6 +281,7 @@
       },
       "block_order": [
         "content_DDNtKD",
+        "content_rKnnyP",
         "content_864WYG",
         "content_n78j8Y",
         "content_nJ4Pce",
