@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -468,6 +477,15 @@
       "store_owner_html": "<a href=\"/admin\">Connectez-vous ici</a>",
       "continue": "Continuer",
       "powered_by_html": "Ce magasin est alimenté par <a href=\"http://www.shopify.com\">Shopify</a>"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Une interaction supplémentaire est requise pour finaliser la commande."
+        }
+      }
     }
   }
 }
