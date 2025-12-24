@@ -487,5 +487,14 @@
         }
       }
     }
+  },
+  "shopify": {
+    "checkout": {
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "需要透過擴充功能進行互動才能完成結帳。"
+        }
+      }
+    }
   }
 }
