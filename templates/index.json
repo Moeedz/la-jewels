@@ -98,7 +98,7 @@
         "p.featured-title-template--20848120168653__featured_collection_16_fFCLQH {font-weight: normal !important;}"
       ],
       "settings": {
-        "heading": "<p>12.25 XMAS LIVE ITEMS</p>",
+        "heading": "<p>THE VALENTINE COLLECTION</p>",
         "heading_custom": false,
         "heading_font": "system_ui_n4",
         "heading_size": 30,
@@ -106,7 +106,7 @@
         "heading_height": 130,
         "heading_align": "center",
         "heading_align_mobile": "center",
-        "collection": "12-25-xmas-live",
+        "collection": "the-valentine-collection",
         "collection_show": 10,
         "slider_view": 4,
         "slider_view_mobile": 1.2,
