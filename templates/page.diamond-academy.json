@@ -25,7 +25,7 @@
         "image_YANBFm": {
           "type": "image",
           "settings": {
-            "title": "4Cs of Diamonds",
+            "title": "4Cs of Diamond Quality",
             "text": "Understanding the four key grading criteria for diamonds — carat weight, clarity, color, and cut — will help you choose the perfect diamond. Every diamond is a unique natural wonder, with professional knowledge, find the most dazzling diamond that suits you best.",
             "first_button_label": "Shop by Stone",
             "first_button_link": "shopify://collections/all",
@@ -216,12 +216,13 @@
       "type": "image--image-with-text-overlay",
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
+        "image": "shopify://shop_images/Measuring_diamond_size_with_an_instrument..webp",
         "image_height": "40vw",
-        "bg_image_overlay_opacity": 0,
+        "bg_image_overlay_opacity": 50,
         "parallax": true,
-        "title": "The Mystery of Diamond Weight",
+        "title": "Carat",
         "text": "When purchasing diamonds, factors such as budget, wearer's body type, and jewelry style should be considered to find the most suitable carat size.",
-        "colors": "dark",
+        "colors": "light",
         "textPosition": "center",
         "textAlignment": "center",
         "heading--text-size": 30,
@@ -239,11 +240,12 @@
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
-        "text_overlapping_image": false,
-        "section-width": "content",
+        "image": "shopify://shop_images/Screenshot_2025-06-13_at_12.58.19_PM.webp",
+        "text_overlapping_image": true,
+        "section-width": "full",
         "layout": "left",
         "text_alignment": "left",
-        "title": "Carat",
+        "title": "The Mystery of Diamond Weight",
         "text": "<p>Carat is a unit of measurement for diamond weight. One carat equals 200 milligrams (0.2 grams), which can be further divided into 100 points. 0.75 carats is 75 points, and 0.01 carats is 1 point. The value of a diamond is not calculated linearly per point—all other things being equal, an increase in weight will result in a geometric increase in value. Diamonds of the same weight can vary significantly in value due to differences in color, clarity, and cut.</p>",
         "button_label": "",
         "button_link": ""
@@ -286,19 +288,103 @@
         "faq_icon": "caret"
       }
     },
+    "image_image_with_text_overlay_J9HYjG": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/diamond-clarity-image-2..jpg",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 50,
+        "parallax": true,
+        "title": "Clarity",
+        "text": "Each natural diamond holds distinct inclusions. The clarity of a diamond is determined by the size, quantity, colour, positioning and other characteristics of internal inclusions and other imperfections.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
     "image_image_with_text_g3xFVn": {
       "type": "image--image-with-text",
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
-        "text_overlapping_image": false,
-        "section-width": "content",
+        "image": "shopify://shop_images/How-to-Inspect-a-Diamond-With-a-Loupe.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
         "layout": "left",
         "text_alignment": "left",
-        "title": "Clarity",
-        "text": "<p>Every natural diamond contains unique inclusions. The number, size, shape, and color of these natural markings determine the diamond's clarity and uniqueness. Clarity grading ranges from FL/IF (Flawless) to I (Flawed), and most inclusions can only be observed under 10x magnification.</p>",
+        "title": "Grades of Diamond",
+        "text": "<p>Most inclusions visible only under 10x magnification. The six clarity grades range from FL, IF, VVS, VS, SI and I.</p>",
         "button_label": "",
         "button_link": ""
+      }
+    },
+    "image_gallery_KAe7Fh": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_tzQ9DV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GIA_Grade.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_tzQ9DV"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "accordion_rMU48Y": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_tehGdp": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How to evaluate the grade?",
+            "text": "<p><strong>1. Overall Impression</strong><br/>Initial grading based on the overall impression of the diamond from the front<br/><br/><strong>2. Regional Examination</strong><br/>Zooming in for closer inspection, focusing on the top, bottom, left, right, and center<br/><br/><strong>3. Facetature Examination</strong><br/>Carefully observing each facet, including the crown, pavilion, and girdle<br/><br/><strong>4. Integrated Assessment</strong><br/>Reassessing the initial impression to determine the final grade</p>"
+          }
+        },
+        "tab_content_PVkHGc": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is inclusions?",
+            "text": "<p>Gem-quality diamonds make up under 10% of total diamond production, with VS grade and above being even scarcer. No two diamonds are identical globally; distinct inclusions are key for identification.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_tehGdp",
+        "tab_content_PVkHGc"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Tips on Diamond's Clarity",
+        "faq_icon": "caret"
       }
     },
     "image_image_with_text_myh3hf": {
@@ -361,7 +447,10 @@
     "image_image_with_text_overlay_QUU9P3",
     "image_image_with_text_txphhB",
     "accordion_7Ebrfq",
+    "image_image_with_text_overlay_J9HYjG",
     "image_image_with_text_g3xFVn",
+    "image_gallery_KAe7Fh",
+    "accordion_rMU48Y",
     "image_image_with_text_myh3hf",
     "image_image_with_text_PPANcX",
     "image_image_with_text_overlay_WY9KUt"
