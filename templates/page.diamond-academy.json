@@ -389,49 +389,20 @@
         "faq_icon": "caret"
       }
     },
-    "image_image_with_text_myh3hf": {
-      "type": "image--image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
-      "settings": {
-        "colors": "white",
-        "text_overlapping_image": false,
-        "section-width": "content",
-        "layout": "left",
-        "text_alignment": "left",
-        "title": "Color",
-        "text": "<p>The larger the diamond, the more pronounced its yellow tint will be. Diamonds that are only one grade apart (F and G) have significantly different prices; when purchasing, a pragmatic approach is needed to consider the balance between color and price. Professional grading requires the use of color-comparing stones, a diamond lamp, a pure white background, and evaluation by two gemologists.</p>",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "image_image_with_text_PPANcX": {
-      "type": "image--image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
-      "settings": {
-        "colors": "white",
-        "text_overlapping_image": false,
-        "section-width": "content",
-        "layout": "left",
-        "text_alignment": "left",
-        "title": "Cut",
-        "text": "<p>Cut refers to the angles at which a diamond's facets are cut and the proportions of each facet after completion. A perfect cut allows light entering the diamond to be reflected internally and concentrated at the crown, creating a brilliant brilliance and fire. Cuts that are too deep or too shallow will cause light to be lost; therefore, diamonds with well-proportioned cuts are more valuable.<br/><br/>Cut is the only one of the 4Cs that is governed by human skill, and it is key to enhancing the beauty of natural diamonds. A perfect cut must balance and showcase the three qualities of brilliance, fire, and scintillation.</p>",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "image_image_with_text_overlay_WY9KUt": {
+    "image_image_with_text_overlay_krkqbK": {
       "type": "image--image-with-text-overlay",
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
+        "image": "shopify://shop_images/15328499_difference-diamond-and-briljant.webp",
         "image_height": "40vw",
-        "bg_image_overlay_opacity": 0,
-        "parallax": true,
-        "title": "LEARN ABOUT TAILOR MADE",
-        "text": "",
-        "colors": "dark",
+        "bg_image_overlay_opacity": 50,
+        "parallax": false,
+        "title": "Color",
+        "text": "Diamond colours fall into two categories. Colourless diamonds can be clear, or have a hint of faint yellow or light brown; while coloured diamonds are commonly yellow, grey, pink, etc.",
+        "colors": "light",
         "textPosition": "center",
         "textAlignment": "center",
-        "heading--text-size": 26,
+        "heading--text-size": 30,
         "text--text-size": 18,
         "link": "",
         "button_label": "",
@@ -439,6 +410,129 @@
         "button-background": "#262428",
         "hover-button-text": "#ffffff",
         "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_myh3hf": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/Colorless_diamond_on_the_right_and_j_color_diamond_on_the_left_side..webp",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "GIA’s D-to-Z Scale",
+        "text": "<p>Colourless diamonds are usually graded according to the Gemological Institute of America’s (GIA) D-to-Z Scale, which ranges from D (colourless and clear, starting from the first letter of “diamond”) to Z (yellow).</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_gallery_ECgY3U": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_wA7Hpi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ColorDiagram_636x200_023e993a-82b3-4ef6-8310-6b44481b1ee4.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_wA7Hpi"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "image_image_with_text_qVQVkC": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/Science-Of-Colored-Diamonds-1024x564.webp",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "left",
+        "title": "Coloured Diamonds",
+        "text": "<p>Coloured diamonds(Gemstone) are extremely rare and vibrant in saturation, ranging from pink, blue, green, and yellow to an exceedingly rare red. Therefore, GIA’s D-to-Z Scale is not applicable to coloured diamonds.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "accordion_pgtxFY": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_c8M3LV": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What makes diamond yellow?",
+            "text": "<p>The larger the diamond, the more pronounced its yellow tint will be. Diamonds that are only one grade apart (F and G) have significantly different prices; when purchasing, a pragmatic approach is needed to consider the balance between color and price. Professional grading requires the use of color-comparing stones, a diamond lamp, a pure white background, and evaluation by two gemologists.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_c8M3LV"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Tips on Diamond's Color",
+        "faq_icon": "caret"
+      }
+    },
+    "image_image_with_text_overlay_XfKbH7": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Art-of-Diamond-Cutting_Shimansky-Cover_0f191704-d743-4400-b443-49f339797635.webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 50,
+        "parallax": false,
+        "title": "Cut",
+        "text": "Diamond cut is crucial for reflecting light internally to maximize brightness and color. Expert craftsmanship determines the proportions for optimal light reflection.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_PPANcX": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/1_Fancy_Diamond_Shapes_Chart_13128576-9c05-4687-85e4-ea47a0d5d7fd.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Diamond Shape and Fancy Cut",
+        "text": "<p>The shape of a diamond is not a factor in judging the quality of its cut. Professionals carefully analyze the diamond before cutting to determine the most appropriate cut, preserving the maximum weight while maximizing its brilliance. The round brilliant cut is the most common, while fancy cuts each have their own unique characteristics.</p>",
+        "button_label": "",
+        "button_link": ""
       }
     }
   },
@@ -453,8 +547,12 @@
     "image_image_with_text_g3xFVn",
     "image_gallery_KAe7Fh",
     "accordion_rMU48Y",
+    "image_image_with_text_overlay_krkqbK",
     "image_image_with_text_myh3hf",
-    "image_image_with_text_PPANcX",
-    "image_image_with_text_overlay_WY9KUt"
+    "image_gallery_ECgY3U",
+    "image_image_with_text_qVQVkC",
+    "accordion_pgtxFY",
+    "image_image_with_text_overlay_XfKbH7",
+    "image_image_with_text_PPANcX"
   ]
 }
