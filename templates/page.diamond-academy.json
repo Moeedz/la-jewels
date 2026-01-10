@@ -26,7 +26,7 @@
           "type": "image",
           "settings": {
             "title": "4Cs of Diamond Quality",
-            "text": "Understanding the four key grading criteria for diamonds — carat weight, clarity, color, and cut — will help you choose the perfect diamond. Every diamond is a unique natural wonder, with professional knowledge, find the most dazzling diamond that suits you best.",
+            "text": "Understanding the four key grading criteria for diamonds — carat weight, clarity, color, and cut — will help you choose the perfect diamond.",
             "first_button_label": "Shop by Stone",
             "first_button_link": "shopify://collections/all",
             "second_button_label": "Tailor Made",
@@ -38,7 +38,7 @@
             "mobile_image": "shopify://shop_images/pexels-photo-4997548.jpg",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "center_left",
+            "mobile_text_position": "bottom_left",
             "image_overlay": "#262428",
             "image_overlay_opacity": 0,
             "caption-text": "#242424",
