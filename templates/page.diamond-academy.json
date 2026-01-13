@@ -28,9 +28,9 @@
             "title": "4Cs of Diamond Quality",
             "text": "Understanding the four key grading criteria for diamonds — Carat, Clarity, Color, and Cut — will help you choose the perfect diamond.",
             "first_button_label": "Shop by Stone",
-            "first_button_link": "shopify://collections/all",
+            "first_button_link": "shopify://pages/choosing-your-diamond",
             "second_button_label": "Tailor Made",
-            "second_button_link": "",
+            "second_button_link": "shopify://pages/tailor-made-process",
             "image": "shopify://shop_images/pexels-photo-4997548.jpg",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 18,
@@ -327,7 +327,7 @@
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
-        "image": "shopify://shop_images/How-to-Inspect-a-Diamond-With-a-Loupe.jpg",
+        "image": "shopify://shop_images/diamonds-loupe-1024x576-1.jpg",
         "text_overlapping_image": true,
         "section-width": "full",
         "layout": "left",
@@ -421,7 +421,7 @@
         "hover-button-background": "#494949"
       }
     },
-    "image_image_with_text_myh3hf": {
+    "image_image_with_text_3fVdFm": {
       "type": "image--image-with-text",
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
@@ -533,7 +533,7 @@
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
-        "image": "shopify://shop_images/Diamond_anatomy_shown_in_the_image_with_diamond_kept_aside_it..webp",
+        "image": "shopify://shop_images/2_1.jpg",
         "text_overlapping_image": true,
         "section-width": "full",
         "layout": "left",
@@ -586,7 +586,7 @@
         "layout": "right",
         "text_alignment": "left",
         "title": "Fancy Cut",
-        "text": "<p>The shape of a diamond is not a factor in judging the quality of its cut. Professionals carefully analyze the diamond before cutting to determine the most appropriate cut, preserving the maximum weight while maximizing its brilliance. The round brilliant cut is the most common, while fancy cuts each have their own unique characteristics.</p>",
+        "text": "<p>Any diamond shape that isn't the traditional round brilliant cut, encompassing a wide variety of designs like oval, pear, princess, <br/>emerald, and cushion cuts, each offering unique aesthetics, sparkle, and<br/> personal style beyond the classic round shape.</p>",
         "button_label": "",
         "button_link": ""
       }
@@ -636,7 +636,7 @@
     "image_gallery_YnbVRn",
     "accordion_rMU48Y",
     "image_image_with_text_overlay_krkqbK",
-    "image_image_with_text_myh3hf",
+    "image_image_with_text_3fVdFm",
     "image_gallery_ECgY3U",
     "image_image_with_text_qVQVkC",
     "accordion_pgtxFY",
