@@ -194,6 +194,7 @@
     },
     "image_image_with_text_overlay_QUU9P3": {
       "type": "image--image-with-text-overlay",
+      "custom_css": [],
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
         "image": "shopify://shop_images/Measuring_diamond_size_with_an_instrument..webp",
