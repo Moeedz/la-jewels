@@ -96,6 +96,29 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "image_image_with_text_overlay_RzL48m": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/gemlab81.jpg",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 30,
+        "parallax": true,
+        "title": "Gem Testing",
+        "text": "We offer free gem testing service in store by our Gemologist with our professional diamond sure machine.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
     }
   },
   "order": [
@@ -103,6 +126,7 @@
     "image_image_with_text_overlay_E3LWeU",
     "text_rich_text_BHjF4E",
     "image_image_with_text_cm96RJ",
-    "image_image_with_text_MEyMRe"
+    "image_image_with_text_MEyMRe",
+    "image_image_with_text_overlay_RzL48m"
   ]
 }
