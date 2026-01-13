@@ -112,12 +112,12 @@
         "textAlignment": "center",
         "heading--text-size": 26,
         "text--text-size": 18,
-        "link": "",
-        "button_label": "",
-        "button-text": "#ffffff",
-        "button-background": "#262428",
-        "hover-button-text": "#ffffff",
-        "hover-button-background": "#494949"
+        "link": "https://api.whatsapp.com/send?phone=85269906391",
+        "button_label": "Book Now",
+        "button-text": "#000000",
+        "button-background": "#fff",
+        "hover-button-text": "#000000",
+        "hover-button-background": "#fff"
       }
     }
   },
