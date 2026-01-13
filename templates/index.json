@@ -31,6 +31,46 @@
         "hover-button-background": "#494949"
       }
     },
+    "image_slideshow_CWxT6i": {
+      "type": "image--slideshow",
+      "blocks": {
+        "image_RqRyYr": {
+          "type": "image",
+          "settings": {
+            "title": "TAILOR MADE",
+            "text": "",
+            "first_button_label": "Shop now",
+            "first_button_link": "shopify://collections/all",
+            "second_button_label": "Learn more",
+            "second_button_link": "",
+            "image": "shopify://shop_images/B2.4_How-diamond-cutting-is-key_Landscape-1024x677.jpg",
+            "desktop-caption-heading-size": 80,
+            "desktop-caption-body-text-size": 24,
+            "text_position": "bottom_left",
+            "mobile_image": "shopify://shop_images/2560e16b572948871f1457e15425d89d.jpg",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#242424",
+            "button-text": "#ffffff",
+            "button-background": "#242424",
+            "hover-button-background": "#9F9F9F"
+          }
+        }
+      },
+      "block_order": [
+        "image_RqRyYr"
+      ],
+      "name": "t:sections.image--slideshow.presets.name",
+      "settings": {
+        "desktop_height": "full_screen",
+        "mobile_height": "extra_large",
+        "slide_navigation_style": "bars",
+        "slide_transition_delay": 7
+      }
+    },
     "featured_collection_16_xLkRbK": {
       "type": "featured-collection-16",
       "blocks": {
@@ -851,6 +891,7 @@
   },
   "order": [
     "video_video_hero_jnF6My",
+    "image_slideshow_CWxT6i",
     "featured_collection_16_xLkRbK",
     "featured_collection_16_fFCLQH",
     "image_slideshow_8ijpMy",
