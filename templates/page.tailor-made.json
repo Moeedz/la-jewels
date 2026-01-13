@@ -109,20 +109,6 @@
         "text_alignment_mobile": "center"
       }
     },
-    "store_information_map_WfaNNR": {
-      "type": "store-information--map",
-      "name": "t:sections.store-information--map.presets.name",
-      "settings": {
-        "colors": "white",
-        "heading": "Our Store",
-        "address": "<p>Room 1606, Austin Tower, 22-26 Austin Avenue, Tsim Sha Tsui, Hong Kong (Jordan Station D Exit)</p><p></p><p>Mon - Sun, 1pm - 9pm</p><p>WhatsApp: <a href=\"http://wa.me/85269906391\" title=\"http://wa.me/85269906391\">+852 6990 6391</a></p>",
-        "map_address": "Austin Tower, 22-26 Austin Avenue, Tsim Sha Tsui, Hong Kong",
-        "api_key": "",
-        "button_text": "Get directions",
-        "layout": "left",
-        "background_image": "shopify://shop_images/DSC09219.jpg"
-      }
-    },
     "section_contact_form_bF7Gxj": {
       "type": "section--contact-form",
       "blocks": {
@@ -175,7 +161,6 @@
     "image_image_with_text_overlay_rmEJDV",
     "text_text_adverts_PPaAm8",
     "text_rich_text_zazX73",
-    "store_information_map_WfaNNR",
     "section_contact_form_bF7Gxj"
   ]
 }
