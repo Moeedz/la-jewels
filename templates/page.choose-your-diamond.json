@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "template--page",
+      "disabled": true,
       "custom_css": [
         "svg.feather.feather-arrow-right-circle.icon-wings {display: none;}"
       ],
@@ -18,9 +19,56 @@
         "page_title_enabled": true,
         "page_width": "narrow"
       }
+    },
+    "image_image_with_text_overlay_E3LWeU": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/b03f354d399a056e02c1a20a22eb2c056e10ebb1-4000x3005.webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 20,
+        "parallax": true,
+        "title": "Certification",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "text_rich_text_BHjF4E": {
+      "type": "text--rich-text",
+      "blocks": {
+        "richtext_PzTBKk": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>The diamond industry has developed a relatively international and standardized set of grading standards. Diamond grading certificates are issued by third-party gemological laboratories and faithfully record the quality of the diamond being graded. A credible grading certificate will list all identifiable attributes, such as the diamond's shape, weight, cut, color, clarity, polish, and symmetry, to verify the grade of the diamond you are purchasing.<br/><br/>Currently, the most well-known and popular international diamond certificates include the following:</p>",
+            "text_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "richtext_PzTBKk"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_image_with_text_overlay_E3LWeU",
+    "text_rich_text_BHjF4E"
   ]
 }

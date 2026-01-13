@@ -122,6 +122,52 @@
         "layout": "left",
         "background_image": "shopify://shop_images/DSC09219.jpg"
       }
+    },
+    "section_contact_form_bF7Gxj": {
+      "type": "section--contact-form",
+      "blocks": {
+        "name_input_tCGqhy": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "email_input_YRL3fG": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "tel_input_PzTxdJ": {
+          "type": "tel_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "message_input_qRHirL": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input_tCGqhy",
+        "email_input_YRL3fG",
+        "tel_input_PzTxdJ",
+        "message_input_qRHirL"
+      ],
+      "name": "t:sections.section--contact-form.presets.name",
+      "settings": {
+        "section_color_scheme": "white",
+        "form_width": "narrow",
+        "form_title": "Contact us",
+        "form_description": "<p>Have a question, or want a product recommendation? Get in touch.</p>"
+      }
     }
   },
   "order": [
@@ -129,6 +175,7 @@
     "image_image_with_text_overlay_rmEJDV",
     "text_text_adverts_PPaAm8",
     "text_rich_text_zazX73",
-    "store_information_map_WfaNNR"
+    "store_information_map_WfaNNR",
+    "section_contact_form_bF7Gxj"
   ]
 }
