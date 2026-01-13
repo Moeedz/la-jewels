@@ -24,12 +24,12 @@
       "type": "image--image-with-text-overlay",
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
-        "image": "shopify://shop_images/b03f354d399a056e02c1a20a22eb2c056e10ebb1-4000x3005.webp",
+        "image": "shopify://shop_images/LIM-1021-2026-1920x550-Tucson-Pre-Show-CS-Promo--Homepage-Hero-Banner-FINAL_2.png",
         "image_height": "40vw",
-        "bg_image_overlay_opacity": 20,
+        "bg_image_overlay_opacity": 40,
         "parallax": true,
         "title": "Certification",
-        "text": "",
+        "text": "A diamond certification is provided by an independent gemology lab. This offers an objective perspective on a diamond’s unique characteristics across the ‘4Cs’ of cut, color, clarity, and carat.",
         "colors": "light",
         "textPosition": "center",
         "textAlignment": "center",
@@ -64,11 +64,45 @@
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center"
       }
+    },
+    "image_image_with_text_cm96RJ": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "light",
+        "image": "shopify://shop_images/unnamed.png",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "About GIA",
+        "text": "<p>Founded in 1931, GIA has the strictest grading of diamonds and is renowned for being the natural diamond grading standard. It was the GIA who invented the diamond grading scale and the famous 4Cs. All GIA diamonds are now laser inscribed with the report reference.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_image_with_text_MEyMRe": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "light",
+        "image": "shopify://shop_images/logo_IGI.png",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "About IGI",
+        "text": "<p>Established in 1975 and now operating 20 laboratories across the world, IGI is the world leader in laboratory grown diamond grading. IGI is the most respected certification organisation when it comes to laboratory grown diamonds. Each diamond graded is laser-inscribed along the girdle with the certificate reference.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
     "image_image_with_text_overlay_E3LWeU",
-    "text_rich_text_BHjF4E"
+    "text_rich_text_BHjF4E",
+    "image_image_with_text_cm96RJ",
+    "image_image_with_text_MEyMRe"
   ]
 }
