@@ -1,0 +1,674 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "custom_css": [
+        "svg.feather.feather-arrow-right-circle.icon-wings {display: none;}"
+      ],
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "narrow"
+      }
+    },
+    "image_slideshow_GyphdD": {
+      "type": "image--slideshow",
+      "blocks": {
+        "image_YANBFm": {
+          "type": "image",
+          "settings": {
+            "title": "4Cs of Diamond Quality",
+            "text": "Understanding the four key grading criteria for diamonds — Carat, Clarity, Color, and Cut — will help you choose the perfect diamond.",
+            "first_button_label": "Shop by Stone",
+            "first_button_link": "shopify://pages/choosing-your-diamond",
+            "second_button_label": "Tailor Made",
+            "second_button_link": "shopify://pages/tailor-made-process",
+            "image": "shopify://shop_images/pexels-photo-4997548.jpg",
+            "desktop-caption-heading-size": 60,
+            "desktop-caption-body-text-size": 18,
+            "text_position": "bottom_left",
+            "mobile_image": "shopify://shop_images/pexels-photo-4997548.jpg",
+            "mobile-caption-heading-size": 36,
+            "mobile-caption-body-text-size": 16,
+            "mobile_text_position": "center_left",
+            "image_overlay": "#262428",
+            "image_overlay_opacity": 0,
+            "caption-text": "#242424",
+            "button-text": "#ffffff",
+            "button-background": "#242424",
+            "hover-button-background": "#9F9F9F"
+          }
+        }
+      },
+      "block_order": [
+        "image_YANBFm"
+      ],
+      "name": "t:sections.image--slideshow.presets.name",
+      "settings": {
+        "desktop_height": "full_screen",
+        "mobile_height": "extra_large",
+        "slide_navigation_style": "bars",
+        "slide_transition_delay": 7
+      }
+    },
+    "ss_image_with_text_12_Lix3t4": {
+      "type": "ss-image-with-text-12",
+      "blocks": {
+        "slide_z7LNwk": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p><strong>Carat</strong></p>",
+            "text": "<p>Measures the weight of a diamond, not its size. One carat equals 200 milligrams. The larger the carat weight, the rarer and more expensive the diamond.</p>",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "image": "shopify://shop_images/Measure-diamond-in-gauge.jpg"
+          }
+        },
+        "slide_FQhktb": {
+          "type": "slide",
+          "settings": {
+            "heading": "<h4>Clarity</h4>",
+            "text": "<p>Assess the number, size, and location of inclusions and surface blemishes in a diamond. The fewer the blemishes, the higher the diamond's clarity grade and the better its light transmission.</p>",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "image": "shopify://shop_images/B2.4_How-diamond-cutting-is-key_Landscape-1024x677.jpg"
+          }
+        },
+        "slide_NKirny": {
+          "type": "slide",
+          "settings": {
+            "heading": "<h4>Cut</h4>",
+            "text": "<p>The only factor influenced by human intervention. Precise cutting maximizes the fire, brilliance, and sparkle of a diamond, which is key to its beauty.</p>",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "image": "shopify://shop_images/diamond_cut_655x400_block3.jpg"
+          }
+        },
+        "slide_hAt4nP": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p><strong>Color</strong></p>",
+            "text": "<p>The grading system ranges from D (completely colorless) to Z (significantly pale yellow). Colorless diamonds are the rarest and most precious, refracting white light to the greatest extent possible.</p>",
+            "button": "LEARN MORE",
+            "button_url": "",
+            "image": "shopify://shop_images/round-brilliant-diamond_1440x810_Desktop.webp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_z7LNwk",
+        "slide_FQhktb",
+        "slide_NKirny",
+        "slide_hAt4nP"
+      ],
+      "name": "SS - Image With Text #12",
+      "settings": {
+        "slide_gap": 70,
+        "slide_gap_mobile": 24,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "content_mt": 0,
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 32,
+        "heading_height": 110,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 170,
+        "text_mt": 32,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 11,
+        "button_size_mobile": 11,
+        "button_height": 100,
+        "button_mt": 60,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 38,
+        "button_padding_horizontal_mobile": 38,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "button_style": "outline",
+        "images_position": "left",
+        "images_position_mobile": "bottom",
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "image_shape": "none",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "number_custom": false,
+        "number_font": "josefin_sans_n4",
+        "number_size": 13,
+        "number_size_mobile": 13,
+        "pagination_text": "Guide of Diamond 4Cs",
+        "pagination_text_custom": false,
+        "pagination_text_font": "josefin_sans_n4",
+        "pagination_text_size": 16,
+        "pagination_text_size_mobile": 16,
+        "pagination_text_height": 130,
+        "heading_color": "#1B1B1B",
+        "text_color": "#1B1B1B",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#d2d1d1",
+        "button_bg_hover_color": "#d2d1d1",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "image_border_color": "#000000",
+        "dots_bg_color": "",
+        "dots_bg_hover_color": "#000000",
+        "dots_border_color": "#000000",
+        "dots_border_hover_color": "#000000",
+        "number_color": "#000000",
+        "number_hover_color": "#FFFFFF",
+        "pagination_text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 3,
+        "margin_horizontal_mobile": 1.5,
+        "padding_top": 72,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "image_image_with_text_overlay_QUU9P3": {
+      "type": "image--image-with-text-overlay",
+      "custom_css": [],
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Measuring_diamond_size_with_an_instrument..webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 50,
+        "parallax": true,
+        "title": "Carat",
+        "text": "When purchasing diamonds, factors such as budget, wearer's body type, and jewelry style should be considered to find the most suitable carat size.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_txphhB": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/Screenshot_2025-06-13_at_12.58.19_PM.webp",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "The Mystery of Diamond Weight",
+        "text": "<p>Carat is a unit of measurement for diamond weight. One carat equals 200 milligrams (0.2 grams), which can be further divided into 100 points. 0.75 carats is 75 points, and 0.01 carats is 1 point. The value of a diamond is not calculated linearly per point—all other things being equal, an increase in weight will result in a geometric increase in value. Diamonds of the same weight can vary significantly in value due to differences in color, clarity, and cut.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_gallery_KAe7Fh": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_tzQ9DV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Diamond_Carat_Size_Chart_1600x_32d2895e-8916-4427-8d45-3b6c80e9bc39.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_tzQ9DV"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "accordion_7Ebrfq": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_CRAMB6": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Does weight determine price?",
+            "text": "<p>The larger the carat weight, the fewer the production volume. A 2-carat diamond costs more than twice as much as a 1-carat diamond. Rarity determines value.</p>"
+          }
+        },
+        "tab_content_FawzRC": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is melee diamond more cheaper?",
+            "text": "<p>While the unit price of melee diamonds under 0.08 carats is low, the cost of setting them increases the total cost, so they are not necessarily cheaper than a single diamond.</p>"
+          }
+        },
+        "tab_content_dUDtgq": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is the ideal diamond proportioned size?",
+            "text": "<p>If the crown is too large, the depth will be shallow, affecting light refraction. Choosing a diamond with a properly proportioned size will allow it to display its best fire and brilliance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_CRAMB6",
+        "tab_content_FawzRC",
+        "tab_content_dUDtgq"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Tips on Diamond's Carat",
+        "faq_icon": "caret"
+      }
+    },
+    "image_image_with_text_overlay_J9HYjG": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/diamond-clarity-image-2..jpg",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 50,
+        "parallax": true,
+        "title": "Clarity",
+        "text": "Each natural diamond holds distinct inclusions. The clarity of a diamond is determined by the size, quantity, colour, positioning and other characteristics of internal inclusions and other imperfections.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_g3xFVn": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/diamonds-loupe-1024x576-1.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Grades of Diamond",
+        "text": "<p>Most inclusions visible only under 10x magnification. The six clarity grades range from FL, IF, VVS, VS, SI and I.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_gallery_YnbVRn": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_fCNk7x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GIA_Grade.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_fCNk7x"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "accordion_rMU48Y": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_tehGdp": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How to evaluate the grade?",
+            "text": "<p><strong>1. Overall Impression</strong><br/>Initial grading based on the overall impression of the diamond from the front<br/><br/><strong>2. Regional Examination</strong><br/>Zooming in for closer inspection, focusing on the top, bottom, left, right, and center<br/><br/><strong>3. Facetature Examination</strong><br/>Carefully observing each facet, including the crown, pavilion, and girdle<br/><br/><strong>4. Integrated Assessment</strong><br/>Reassessing the initial impression to determine the final grade</p>"
+          }
+        },
+        "tab_content_PVkHGc": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is inclusions?",
+            "text": "<p>Gem-quality diamonds make up under 10% of total diamond production, with VS grade and above being even scarcer. No two diamonds are identical globally; distinct inclusions are key for identification.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_tehGdp",
+        "tab_content_PVkHGc"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Tips on Diamond's Clarity",
+        "faq_icon": "caret"
+      }
+    },
+    "image_image_with_text_overlay_krkqbK": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/15328499_difference-diamond-and-briljant.webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 50,
+        "parallax": false,
+        "title": "Color",
+        "text": "Diamond colours fall into two categories. Colourless diamonds can be clear, or have a hint of faint yellow or light brown; while coloured diamonds are commonly yellow, grey, pink, etc.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_3fVdFm": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/Colorless_diamond_on_the_right_and_j_color_diamond_on_the_left_side..webp",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "GIA’s D-to-Z Scale",
+        "text": "<p>Colourless diamonds are usually graded according to the Gemological Institute of America’s (GIA) D-to-Z Scale, which ranges from D (colourless and clear, starting from the first letter of “diamond”) to Z (yellow).</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_gallery_ECgY3U": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_wA7Hpi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ColorDiagram_636x200_023e993a-82b3-4ef6-8310-6b44481b1ee4.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_wA7Hpi"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "image_image_with_text_qVQVkC": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/Science-Of-Colored-Diamonds-1024x564.webp",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "left",
+        "title": "Coloured Diamonds",
+        "text": "<p>Coloured diamonds(Gemstone) are extremely rare and vibrant in saturation, ranging from pink, blue, green, and yellow to an exceedingly rare red. Therefore, GIA’s D-to-Z Scale is not applicable to coloured diamonds.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "accordion_pgtxFY": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_c8M3LV": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What makes diamond yellow?",
+            "text": "<p>The larger the diamond, the more pronounced its yellow tint will be. Diamonds that are only one grade apart (F and G) have significantly different prices; when purchasing, a pragmatic approach is needed to consider the balance between color and price. Professional grading requires the use of color-comparing stones, a diamond lamp, a pure white background, and evaluation by two gemologists.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_c8M3LV"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Tips on Diamond's Color",
+        "faq_icon": "caret"
+      }
+    },
+    "image_image_with_text_overlay_XfKbH7": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Art-of-Diamond-Cutting_Shimansky-Cover_0f191704-d743-4400-b443-49f339797635.webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 50,
+        "parallax": false,
+        "title": "Cut",
+        "text": "Diamond cut is crucial for reflecting light internally to maximize brightness and color. Expert craftsmanship determines the proportions for optimal light reflection.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_PPANcX": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/2_1.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Diamond Shape",
+        "text": "<p>The shape of a diamond is not a factor in judging the quality of its cut. Professionals carefully analyze the diamond before cutting to determine the most appropriate cut, preserving the maximum weight while maximizing its brilliance. The round brilliant cut is the most common, while fancy cuts each have their own unique characteristics.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_gallery_ieAYfH": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_HhqC7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/diamond_cuts.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_HhqC7c"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "image_image_with_text_iVV9LR": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/1_Fancy_Diamond_Shapes_Chart_13128576-9c05-4687-85e4-ea47a0d5d7fd.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "left",
+        "title": "Fancy Cut",
+        "text": "<p>Any diamond shape that isn't the traditional round brilliant cut, encompassing a wide variety of designs like oval, pear, princess, <br/>emerald, and cushion cuts, each offering unique aesthetics, sparkle, and<br/> personal style beyond the classic round shape.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_gallery_hz4hYB": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_C7GTcj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Allure_Diamond_Shapes.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_C7GTcj"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "image_image_with_text_overlay_rmEJDV": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/round-brilliant-diamond_1440x810_Desktop.webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 50,
+        "parallax": false,
+        "title": "Choose Your Diamond",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 18,
+        "link": "shopify://pages/choosing-your-diamond",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_slideshow_GyphdD",
+    "ss_image_with_text_12_Lix3t4",
+    "image_image_with_text_overlay_QUU9P3",
+    "image_image_with_text_txphhB",
+    "image_gallery_KAe7Fh",
+    "accordion_7Ebrfq",
+    "image_image_with_text_overlay_J9HYjG",
+    "image_image_with_text_g3xFVn",
+    "image_gallery_YnbVRn",
+    "accordion_rMU48Y",
+    "image_image_with_text_overlay_krkqbK",
+    "image_image_with_text_3fVdFm",
+    "image_gallery_ECgY3U",
+    "image_image_with_text_qVQVkC",
+    "accordion_pgtxFY",
+    "image_image_with_text_overlay_XfKbH7",
+    "image_image_with_text_PPANcX",
+    "image_gallery_ieAYfH",
+    "image_image_with_text_iVV9LR",
+    "image_gallery_hz4hYB",
+    "image_image_with_text_overlay_rmEJDV"
+  ]
+}
