@@ -39,10 +39,10 @@
           "settings": {
             "title": "TAILOR MADE",
             "text": "",
-            "first_button_label": "Shop now",
-            "first_button_link": "shopify://collections/all",
+            "first_button_label": "Book now",
+            "first_button_link": "shopify://pages/tailor-made-process",
             "second_button_label": "Learn more",
-            "second_button_link": "",
+            "second_button_link": "shopify://pages/diamond-academy",
             "image": "shopify://shop_images/B2.4_How-diamond-cutting-is-key_Landscape-1024x677.jpg",
             "desktop-caption-heading-size": 75,
             "desktop-caption-body-text-size": 24,
@@ -56,7 +56,7 @@
             "caption-text": "#242424",
             "button-text": "#ffffff",
             "button-background": "#242424",
-            "hover-button-background": "#9F9F9F"
+            "hover-button-background": "#9f9f9f"
           }
         }
       },
