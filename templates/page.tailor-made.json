@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "template--page",
+      "disabled": true,
       "custom_css": [
         "svg.feather.feather-arrow-right-circle.icon-wings {display: none;}"
       ],
@@ -34,7 +35,7 @@
         "textAlignment": "center",
         "heading--text-size": 30,
         "text--text-size": 18,
-        "link": "shopify://pages/product-care",
+        "link": "shopify://pages/choosing-your-diamond",
         "button_label": "",
         "button-text": "#ffffff",
         "button-background": "#262428",
@@ -42,71 +43,68 @@
         "hover-button-background": "#494949"
       }
     },
-    "text_text_adverts_PPaAm8": {
-      "type": "text--text-adverts",
-      "blocks": {
-        "text_r9K69i": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": ""
-          }
-        },
-        "text_V6BQgD": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": ""
-          }
-        },
-        "text_wJjxff": {
-          "type": "text",
-          "settings": {
-            "heading": "What makes you different",
-            "subheading": "Shout about your unique selling points",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_r9K69i",
-        "text_V6BQgD",
-        "text_wJjxff"
-      ],
-      "name": "t:sections.text--text-adverts.presets.name",
-      "settings": {
-        "colors": "light"
-      }
-    },
-    "text_rich_text_zazX73": {
-      "type": "text--rich-text",
-      "blocks": {
-        "heading_k9bbXH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Heading"
-          }
-        },
-        "richtext_zFw8zQ": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.</p>",
-            "text_size": 14
-          }
-        }
-      },
-      "block_order": [
-        "heading_k9bbXH",
-        "richtext_zFw8zQ"
-      ],
-      "name": "t:sections.text--rich-text.presets.name",
+    "image_image_with_text_6LGmmB": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
-        "section_width": "narrow",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center"
+        "image": "shopify://shop_images/couple-jewelry-store-choosing-ring-together_1303-30662.avif",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Step 1: Custom Consultation",
+        "text": "<p>Whether you already have specific ideas or not, you are welcome to visit our store for a hands-on experience.<br/><br/>During the initial consultation, please relax and let your imagination run wild. You can also refer to the diverse styles on display and communicate with your dedicated consultant.</p><p>If you have budget considerations or any specific requirements, please feel free to raise them for discussion.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_image_with_text_mWxgBP": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "light",
+        "image": "shopify://shop_images/Jewelry-Designing-Courses-Online1.jpg",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Step 2: Design and Choosing the Main Stone",
+        "text": "<p>The designer will create a design concept sketch for you in person, and propose a design based on your preferred style or wearing needs.A jewelry consultant will recommend suitable gemstones within your budget range.<br/><br/>Feel free to express your ideas regarding color, gemstones, or any style. The more descriptions you provide, the better the designer understands your ideal design. La.Vie Jewels offers a diverse selection of loose stones.</p><p>The designer will provide a concept sketch and a budget quote range, and will provide a custom design sketch and quotation within the next two weeks.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_image_with_text_pnzN8T": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/custom-design_600x_e9b4120d-92b4-46d2-9a91-c830a8db17ca.webp",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Step 3: Wax Sculpture and Diamond Setting",
+        "text": "<p>The production process is transparent, allowing you to participate in creating your own bespoke jewelry.<br/><br/>After placing your order, you can stay in touch with a jewelry consultant via WhatsApp at any time to confirm the details and ensure a satisfactory final product.If the product differs from your expectations, please let us know immediately, and we will try our best to make modifications.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_image_with_text_hUaEgr": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "light",
+        "image": "shopify://shop_images/CustomConsult.webp",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Step 4: Fitting and Delivery",
+        "text": "<p>La.Vie Jewels offers lifetime after-sales service for bespoke jewelry (repair and warranty will incur material and labor costs depending on the situation).<br/><br/>Scratches or oxidation on the metal can be polished at our store to restore its new shine. Size alterations are also available.</p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "section_contact_form_bF7Gxj": {
@@ -159,8 +157,10 @@
   "order": [
     "main",
     "image_image_with_text_overlay_rmEJDV",
-    "text_text_adverts_PPaAm8",
-    "text_rich_text_zazX73",
+    "image_image_with_text_6LGmmB",
+    "image_image_with_text_mWxgBP",
+    "image_image_with_text_pnzN8T",
+    "image_image_with_text_hUaEgr",
     "section_contact_form_bF7Gxj"
   ]
 }
