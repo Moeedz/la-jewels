@@ -107,6 +107,35 @@
         "button_link": ""
       }
     },
+    "accordion_P6wA9K": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_Ue9UGK": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long does it take to make a custom order?",
+            "text": "<p>Custom orders, including engraving and other services, generally take 1-2 months to produce after the customer places an order.Production begins only after the order is received, so it takes approximately one and a half months from order placement to delivery.</p>"
+          }
+        },
+        "tab_content_ragiLC": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How to measure ring size?",
+            "text": "<p><strong>Professional Ring Gauge Method:</strong> Use a plastic/metal ring gauge to directly measure the circumference of your finger.</p><p><br/><strong>Measure an Existing Ring:</strong> If you have a ring that fits well, measure its inner diameter and compare it to a ring size chart.</p><p><br/><strong>String or Paper Method:</strong> Wrap a string or piece of paper around the base of your finger, mark the overlap, and then measure the length with a ruler.Divide this measurement by π (approximately 3.14) to find the diameter, and refer to a ring size chart to find your size.</p><p><strong>Key Points</strong><br/>1. It is recommended to measure the ring size in the evening at room temperature.<br/>2. Chain rings should not be worn too tightly, as finger circumference may vary slightly between summer and winter.<br/>3. For wide rings exceeding 10mm in area, an additional 1-2 sizes will be needed when ordering a custom ring.It is recommended that you visit a store for measurement assistance from a consultant.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_Ue9UGK",
+        "tab_content_ragiLC"
+      ],
+      "name": "t:sections.accordion.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "Frequently asked questions",
+        "faq_icon": "caret"
+      }
+    },
     "section_contact_form_bF7Gxj": {
       "type": "section--contact-form",
       "blocks": {
@@ -161,6 +190,7 @@
     "image_image_with_text_mWxgBP",
     "image_image_with_text_pnzN8T",
     "image_image_with_text_hUaEgr",
+    "accordion_P6wA9K",
     "section_contact_form_bF7Gxj"
   ]
 }
