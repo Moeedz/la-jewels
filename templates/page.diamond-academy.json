@@ -46,36 +46,10 @@
             "button-background": "#242424",
             "hover-button-background": "#9F9F9F"
           }
-        },
-        "image_AyrViq": {
-          "type": "image",
-          "settings": {
-            "title": "4Cs of Diamond Quality",
-            "text": "Understanding the four key grading criteria for diamonds—carat weight, clarity, color, and cut—will help you choose the perfect diamond. Every diamond is a unique natural wonder; with professional knowledge, find the most dazzling gemstone that suits you best.",
-            "first_button_label": "Shop Now",
-            "first_button_link": "shopify://collections/all",
-            "second_button_label": "Talior Made",
-            "second_button_link": "shopify://pages/tailor-made-process",
-            "image": "shopify://shop_images/pexels-photo-4997548.jpg",
-            "desktop-caption-heading-size": 80,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "center_left",
-            "mobile_image": "shopify://shop_images/pexels-photo-4997548.jpg",
-            "mobile-caption-heading-size": 28,
-            "mobile-caption-body-text-size": 14,
-            "mobile_text_position": "bottom_left",
-            "image_overlay": "#262428",
-            "image_overlay_opacity": 0,
-            "caption-text": "#242424",
-            "button-text": "#ffffff",
-            "button-background": "#242424",
-            "hover-button-background": "#9F9F9F"
-          }
         }
       },
       "block_order": [
-        "image_YANBFm",
-        "image_AyrViq"
+        "image_YANBFm"
       ],
       "name": "t:sections.image--slideshow.presets.name",
       "settings": {
@@ -94,7 +68,8 @@
             "heading": "<p><strong>Carat</strong></p>",
             "text": "<p>Measures the weight of a diamond, not its size. One carat equals 200 milligrams. The larger the carat weight, the rarer and more expensive the diamond.</p>",
             "button": "LEARN MORE",
-            "button_url": ""
+            "button_url": "",
+            "image": "shopify://shop_images/Measure-diamond-in-gauge.jpg"
           }
         },
         "slide_FQhktb": {
@@ -103,7 +78,8 @@
             "heading": "<h4>Clarity</h4>",
             "text": "<p>Assess the number, size, and location of inclusions and surface blemishes in a diamond. The fewer the blemishes, the higher the diamond's clarity grade and the better its light transmission.</p>",
             "button": "LEARN MORE",
-            "button_url": ""
+            "button_url": "",
+            "image": "shopify://shop_images/B2.4_How-diamond-cutting-is-key_Landscape-1024x677.jpg"
           }
         },
         "slide_NKirny": {
@@ -112,7 +88,8 @@
             "heading": "<h4>Cut</h4>",
             "text": "<p>The only factor influenced by human intervention. Precise cutting maximizes the fire, brilliance, and sparkle of a diamond, which is key to its beauty.</p>",
             "button": "LEARN MORE",
-            "button_url": ""
+            "button_url": "",
+            "image": "shopify://shop_images/diamond_cut_655x400_block3.jpg"
           }
         },
         "slide_hAt4nP": {
@@ -121,7 +98,8 @@
             "heading": "<p><strong>Color</strong></p>",
             "text": "<p>The grading system ranges from D (completely colorless) to Z (significantly pale yellow). Colorless diamonds are the rarest and most precious, refracting white light to the greatest extent possible.</p>",
             "button": "LEARN MORE",
-            "button_url": ""
+            "button_url": "",
+            "image": "shopify://shop_images/round-brilliant-diamond_1440x810_Desktop.webp"
           }
         }
       },
@@ -131,7 +109,6 @@
         "slide_NKirny",
         "slide_hAt4nP"
       ],
-      "disabled": true,
       "name": "SS - Image With Text #12",
       "settings": {
         "slide_gap": 70,
@@ -254,6 +231,37 @@
         "button_link": ""
       }
     },
+    "image_gallery_KAe7Fh": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_tzQ9DV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Diamond_Carat_Size_Chart_1600x_32d2895e-8916-4427-8d45-3b6c80e9bc39.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_tzQ9DV"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
     "accordion_7Ebrfq": {
       "type": "accordion",
       "blocks": {
@@ -330,10 +338,10 @@
         "button_link": ""
       }
     },
-    "image_gallery_KAe7Fh": {
+    "image_gallery_YnbVRn": {
       "type": "image--gallery",
       "blocks": {
-        "image_tzQ9DV": {
+        "image_fCNk7x": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/GIA_Grade.png",
@@ -348,7 +356,7 @@
         }
       },
       "block_order": [
-        "image_tzQ9DV"
+        "image_fCNk7x"
       ],
       "name": "t:sections.image--gallery.presets.name",
       "settings": {
@@ -525,7 +533,7 @@
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
-        "image": "shopify://shop_images/1_Fancy_Diamond_Shapes_Chart_13128576-9c05-4687-85e4-ea47a0d5d7fd.jpg",
+        "image": "shopify://shop_images/Diamond_anatomy_shown_in_the_image_with_diamond_kept_aside_it..webp",
         "text_overlapping_image": true,
         "section-width": "full",
         "layout": "left",
@@ -535,6 +543,84 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "image_gallery_ieAYfH": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_HhqC7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/diamond_cuts.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_HhqC7c"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
+    },
+    "image_image_with_text_iVV9LR": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "image": "shopify://shop_images/1_Fancy_Diamond_Shapes_Chart_13128576-9c05-4687-85e4-ea47a0d5d7fd.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "left",
+        "title": "Fancy Cut",
+        "text": "<p>The shape of a diamond is not a factor in judging the quality of its cut. Professionals carefully analyze the diamond before cutting to determine the most appropriate cut, preserving the maximum weight while maximizing its brilliance. The round brilliant cut is the most common, while fancy cuts each have their own unique characteristics.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_gallery_hz4hYB": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_C7GTcj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Allure_Diamond_Shapes.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_C7GTcj"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "content",
+        "content-position": "hide"
+      }
     }
   },
   "order": [
@@ -543,10 +629,11 @@
     "ss_image_with_text_12_Lix3t4",
     "image_image_with_text_overlay_QUU9P3",
     "image_image_with_text_txphhB",
+    "image_gallery_KAe7Fh",
     "accordion_7Ebrfq",
     "image_image_with_text_overlay_J9HYjG",
     "image_image_with_text_g3xFVn",
-    "image_gallery_KAe7Fh",
+    "image_gallery_YnbVRn",
     "accordion_rMU48Y",
     "image_image_with_text_overlay_krkqbK",
     "image_image_with_text_myh3hf",
@@ -554,6 +641,9 @@
     "image_image_with_text_qVQVkC",
     "accordion_pgtxFY",
     "image_image_with_text_overlay_XfKbH7",
-    "image_image_with_text_PPANcX"
+    "image_image_with_text_PPANcX",
+    "image_gallery_ieAYfH",
+    "image_image_with_text_iVV9LR",
+    "image_gallery_hz4hYB"
   ]
 }
