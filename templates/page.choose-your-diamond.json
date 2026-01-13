@@ -24,7 +24,7 @@
       "type": "image--image-with-text-overlay",
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
-        "image": "shopify://shop_images/LIM-1021-2026-1920x550-Tucson-Pre-Show-CS-Promo--Homepage-Hero-Banner-FINAL_2.png",
+        "image": "shopify://shop_images/product-care-cleaning-your-diamond.webp",
         "image_height": "30vw",
         "bg_image_overlay_opacity": 40,
         "parallax": true,
