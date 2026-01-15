@@ -19,6 +19,58 @@
         "page_width": "narrow"
       }
     },
+    "image_image_with_text_overlay_HKJDzp": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/b03f354d399a056e02c1a20a22eb2c056e10ebb1-4000x3005.webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 30,
+        "parallax": true,
+        "title": "Certification",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "text_rich_text_gTqDdg": {
+      "type": "text--rich-text",
+      "blocks": {
+        "heading_mQzaww": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Diamond Certification"
+          }
+        },
+        "richtext_MLpQhF": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>The diamond industry has developed an internationally recognised and standardised benchmarking system. Any given diamond certificate is approved by three examination bodies, who objectively assess the attributes of the diamond under examination. A credible certificate records the observable characteristics of a diamond, for instance the shape, weight, cut, colour, clarity, polish, symmetry, etc., to determine the grade of the purchased diamond.</p><p>Currently, the more well-known and commonly used diamond certificates include:</p>",
+            "text_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_mQzaww",
+        "richtext_MLpQhF"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center"
+      }
+    },
     "image_image_with_text_PqUTgd": {
       "type": "image--image-with-text",
       "name": "t:sections.image--image-with-text.presets.name",
@@ -50,34 +102,12 @@
         "button_label": "",
         "button_link": ""
       }
-    },
-    "image_image_with_text_overlay_HKJDzp": {
-      "type": "image--image-with-text-overlay",
-      "name": "t:sections.image--image-with-text-overlay.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/b03f354d399a056e02c1a20a22eb2c056e10ebb1-4000x3005.webp",
-        "image_height": "40vw",
-        "bg_image_overlay_opacity": 30,
-        "parallax": true,
-        "title": "Certification",
-        "text": "",
-        "colors": "light",
-        "textPosition": "center",
-        "textAlignment": "center",
-        "heading--text-size": 26,
-        "text--text-size": 18,
-        "link": "",
-        "button_label": "",
-        "button-text": "#ffffff",
-        "button-background": "#262428",
-        "hover-button-text": "#ffffff",
-        "hover-button-background": "#494949"
-      }
     }
   },
   "order": [
     "main",
     "image_image_with_text_overlay_HKJDzp",
+    "text_rich_text_gTqDdg",
     "image_image_with_text_PqUTgd",
     "image_image_with_text_pwptre"
   ]
