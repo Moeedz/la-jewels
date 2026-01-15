@@ -25,7 +25,7 @@
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC09093.jpg",
-        "image_height": "30vw",
+        "image_height": "40vw",
         "bg_image_overlay_opacity": 20,
         "parallax": false,
         "title": "Tailor-Made",

@@ -25,7 +25,7 @@
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
         "image": "shopify://shop_images/product-care-cleaning-your-diamond.webp",
-        "image_height": "30vw",
+        "image_height": "40vw",
         "bg_image_overlay_opacity": 40,
         "parallax": true,
         "title": "Product Care",
