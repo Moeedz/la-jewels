@@ -494,6 +494,21 @@
         "errors": {
           "interaction_required": "需要透過擴充功能進行互動才能完成結帳。"
         }
+      },
+      "payment_collection": {
+        "cancelled": "此款項已不再需要支付。詳情請瀏覽訂單頁面。",
+        "paid": "此款項已提交。請造訪訂單頁面查看詳情。"
+      },
+      "shipping": {
+        "choose_new_address": "選擇新地址"
+      },
+      "payment": {
+        "choose_new_payment_method": "選擇新的付款方式"
+      }
+    },
+    "notices": {
+      "cart": {
+        "not_found": "未找到購物車"
       }
     }
   }
