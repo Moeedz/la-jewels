@@ -10,8 +10,32 @@
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
+    "video_video_hero_NzEMRy": {
+      "type": "video--video-hero",
+      "name": "t:sections.video--video-hero.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/lavie_valentine_final-v260106.mov",
+        "url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "desktopHeight": "550",
+        "mobileHeight": "fit",
+        "title": "{{ collection.title }}",
+        "subheading": "",
+        "textAlignment": "center",
+        "textColor": "#fff",
+        "textShadow": false,
+        "heading--text-size": 42,
+        "subheading--text-size": 20,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
     "image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/La.Vie_banner.jpg",
         "image_height": "30vw",
@@ -89,6 +113,7 @@
     }
   },
   "order": [
+    "video_video_hero_NzEMRy",
     "image-with-text-overlay",
     "collection-header-default",
     "product-grid"
