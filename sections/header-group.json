@@ -88,7 +88,7 @@
           "type": "content",
           "settings": {
             "mega-menu": "首飾",
-            "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
+            "mega_image_1": "shopify://shop_images/DSC09072.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -110,7 +110,7 @@
           "disabled": true,
           "settings": {
             "mega-menu": "bijoux",
-            "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
+            "mega_image_1": "shopify://shop_images/DSC09072.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -132,7 +132,7 @@
           "disabled": true,
           "settings": {
             "mega-menu": "JEWELLERY",
-            "mega_image_1": "shopify://shop_images/IMG_8560_600x600_73838e05-dfcb-4412-8dd8-4d5f6b12db03.webp",
+            "mega_image_1": "shopify://shop_images/DSC09072.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -218,7 +218,7 @@
           "type": "content",
           "settings": {
             "mega-menu": "ABOUT US",
-            "mega_image_1": "shopify://shop_images/2025-03-06_7.26.47.png",
+            "mega_image_1": "shopify://shop_images/2560e16b572948871f1457e15425d89d.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -240,7 +240,7 @@
           "disabled": true,
           "settings": {
             "mega-menu": "QUI SOMMES-NOUS",
-            "mega_image_1": "shopify://shop_images/2025-03-06_7.26.47.png",
+            "mega_image_1": "shopify://shop_images/2560e16b572948871f1457e15425d89d.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
@@ -262,7 +262,7 @@
           "disabled": true,
           "settings": {
             "mega-menu": "關於我們",
-            "mega_image_1": "shopify://shop_images/2025-03-06_7.26.47.png",
+            "mega_image_1": "shopify://shop_images/2560e16b572948871f1457e15425d89d.jpg",
             "image_1_aspect_ratio": "square",
             "mega_image_header_1": "",
             "mega_image_subheader_1": "",
