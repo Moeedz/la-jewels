@@ -427,17 +427,17 @@
         "image_UEbjkk": {
           "type": "image",
           "settings": {
-            "title": "ROYAL LUXURY",
+            "title": "COUPLE RINGS",
             "text": "",
             "first_button_label": "Discover",
-            "first_button_link": "shopify://collections/royal-luxury",
+            "first_button_link": "shopify://collections/couple-rings",
             "second_button_label": "",
             "second_button_link": "",
-            "image": "shopify://shop_images/IMG_8437.jpg",
+            "image": "shopify://shop_images/DSC09219.jpg",
             "desktop-caption-heading-size": 40,
             "desktop-caption-body-text-size": 24,
             "text_position": "bottom",
-            "mobile_image": "shopify://shop_images/IMG_8437_ec148498-e504-471e-ade9-a70d6acecdd3.jpg",
+            "mobile_image": "shopify://shop_images/DSC09219.jpg",
             "mobile-caption-heading-size": 20,
             "mobile-caption-body-text-size": 12,
             "mobile_text_position": "bottom",
@@ -559,7 +559,7 @@
         "image_7yPJf3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC06130v_1_2.jpg",
+            "image": "shopify://shop_images/LVB019TRIPLEWAVEBANGLE.jpg",
             "image_overlay": 0,
             "image_radius": 0,
             "heading": "",
