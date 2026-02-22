@@ -441,45 +441,6 @@
         "border_thickness": 0
       }
     },
-    "image_slideshow_CYmK6y": {
-      "type": "image--slideshow",
-      "blocks": {
-        "image_cVBYPi": {
-          "type": "image",
-          "settings": {
-            "title": "TIMELESS DESIGN",
-            "text": "",
-            "first_button_label": "Discover",
-            "first_button_link": "shopify://collections/timeless-design",
-            "second_button_label": "",
-            "second_button_link": "",
-            "image": "shopify://shop_images/IMG_8359.jpg",
-            "desktop-caption-heading-size": 40,
-            "desktop-caption-body-text-size": 24,
-            "text_position": "bottom",
-            "mobile_image": "shopify://shop_images/IMG_8359_7609c170-e2da-46e5-b8c9-1c2759cce1a4.jpg",
-            "mobile-caption-heading-size": 20,
-            "mobile-caption-body-text-size": 12,
-            "mobile_text_position": "bottom",
-            "image_overlay": "#262428",
-            "image_overlay_opacity": 0,
-            "caption-text": "#ffffff",
-            "button-text": "#000000",
-            "button-background": "#ffffff",
-            "hover-button-background": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_cVBYPi"
-      ],
-      "settings": {
-        "desktop_height": "original",
-        "mobile_height": "extra_large",
-        "slide_navigation_style": "bars",
-        "slide_transition_delay": 7
-      }
-    },
     "featured_collection_16_96Jh96": {
       "type": "featured-collection-16",
       "blocks": {
@@ -655,6 +616,131 @@
         "lazy": true
       }
     },
+    "image_image_with_text_overlay_jY3rzd": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "VISIT US",
+        "text": "TSIM SHA TSUI STORE",
+        "colors": "dark",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_gallery_NH9DrN": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_JUV9mT": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_eUnbPq": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_CrtNXe": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_JUV9mT",
+        "image_eUnbPq",
+        "image_CrtNXe"
+      ],
+      "disabled": true,
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "image_logo_list_DRLYyF": {
+      "type": "image--logo-list",
+      "blocks": {
+        "logo_image_pjtrYi": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-01.png",
+            "link": ""
+          }
+        },
+        "logo_image_RK9UTE": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-03.png",
+            "link": ""
+          }
+        },
+        "logo_image_EkJ8rF": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-02.png",
+            "link": ""
+          }
+        },
+        "logo_image_QeaQcw": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-04.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_pjtrYi",
+        "logo_image_RK9UTE",
+        "logo_image_EkJ8rF",
+        "logo_image_QeaQcw"
+      ],
+      "name": "t:sections.image--logo-list.presets.name",
+      "settings": {
+        "colors": "white",
+        "width": 170,
+        "title": "WHY SHOP WITH US"
+      }
+    },
     "text_testimonials_39j7Mh": {
       "type": "text--testimonials",
       "blocks": {
@@ -720,8 +806,10 @@
     "featured_collection_16_fFCLQH",
     "image_slideshow_8ijpMy",
     "ss_media_grid_UwhWWx",
-    "image_slideshow_CYmK6y",
     "featured_collection_16_96Jh96",
+    "image_image_with_text_overlay_jY3rzd",
+    "image_gallery_NH9DrN",
+    "image_logo_list_DRLYyF",
     "text_testimonials_39j7Mh"
   ]
 }
