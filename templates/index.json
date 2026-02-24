@@ -621,7 +621,7 @@
       "disabled": true,
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
-        "image_height": "30vw",
+        "image_height": "40vw",
         "bg_image_overlay_opacity": 0,
         "parallax": true,
         "title": "VISIT US",
@@ -654,19 +654,7 @@
             "overlay_color": "#ffffff"
           }
         },
-        "image_eUnbPq": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#262428",
-            "overlay_color": "#ffffff"
-          }
-        },
-        "image_CrtNXe": {
+        "image_MdhzLF": {
           "type": "image",
           "settings": {
             "link": "",
@@ -681,8 +669,51 @@
       },
       "block_order": [
         "image_JUV9mT",
-        "image_eUnbPq",
-        "image_CrtNXe"
+        "image_MdhzLF"
+      ],
+      "disabled": true,
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
+    },
+    "image_gallery_nNCndk": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_MYf6ah": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_emCgm3": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_MYf6ah",
+        "image_emCgm3"
       ],
       "disabled": true,
       "name": "t:sections.image--gallery.presets.name",
@@ -809,6 +840,7 @@
     "featured_collection_16_96Jh96",
     "image_image_with_text_overlay_jY3rzd",
     "image_gallery_NH9DrN",
+    "image_gallery_nNCndk",
     "image_logo_list_DRLYyF",
     "text_testimonials_39j7Mh"
   ]
