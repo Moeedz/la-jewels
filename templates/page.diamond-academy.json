@@ -67,7 +67,7 @@
           "settings": {
             "heading": "<p><strong>Carat</strong></p>",
             "text": "<p>Measures the weight of a diamond, not its size. One carat equals 200 milligrams. The larger the carat weight, the rarer and more expensive the diamond.</p>",
-            "button": "LEARN MORE",
+            "button": "",
             "button_url": "",
             "image": "shopify://shop_images/Measure-diamond-in-gauge.jpg"
           }
@@ -77,7 +77,7 @@
           "settings": {
             "heading": "<h4>Clarity</h4>",
             "text": "<p>Assess the number, size, and location of inclusions and surface blemishes in a diamond. The fewer the blemishes, the higher the diamond's clarity grade and the better its light transmission.</p>",
-            "button": "LEARN MORE",
+            "button": "",
             "button_url": "",
             "image": "shopify://shop_images/B2.4_How-diamond-cutting-is-key_Landscape-1024x677.jpg"
           }
@@ -87,7 +87,7 @@
           "settings": {
             "heading": "<h4>Cut</h4>",
             "text": "<p>The only factor influenced by human intervention. Precise cutting maximizes the fire, brilliance, and sparkle of a diamond, which is key to its beauty.</p>",
-            "button": "LEARN MORE",
+            "button": "",
             "button_url": "",
             "image": "shopify://shop_images/diamond_cut_655x400_block3.jpg"
           }
@@ -97,7 +97,7 @@
           "settings": {
             "heading": "<p><strong>Color</strong></p>",
             "text": "<p>The grading system ranges from D (completely colorless) to Z (significantly pale yellow). Colorless diamonds are the rarest and most precious, refracting white light to the greatest extent possible.</p>",
-            "button": "LEARN MORE",
+            "button": "",
             "button_url": "",
             "image": "shopify://shop_images/round-brilliant-diamond_1440x810_Desktop.webp"
           }
