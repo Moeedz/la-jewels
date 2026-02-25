@@ -183,7 +183,7 @@
             "option_name": "PAIRS WELL WITH...",
             "swatches_size": "large",
             "swatches_aspect_ratio": "tall",
-            "linked_products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
+            "linked_products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].complementary_products.value }}",
             "margin_bottom": 20
           }
         }
