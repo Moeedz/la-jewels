@@ -177,16 +177,13 @@
             "margin_bottom": 0
           }
         },
-        "fbfe241f-1b44-41cd-ae22-e866bdad9aaf": {
-          "type": "cross-sells",
+        "linked_products_Ekg7mP": {
+          "type": "linked-products",
           "settings": {
-            "title": "You may also like...",
-            "cross_sell_product_1": "",
-            "cross_sell_product_2": "",
-            "cross_sell_product_3": "",
-            "collapsible_tab": false,
-            "icon": "none",
-            "open_close_icon": "plus_minus",
+            "option_name": "PAIRS WELL WITH...",
+            "swatches_size": "large",
+            "swatches_aspect_ratio": "tall",
+            "linked_products": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
             "margin_bottom": 20
           }
         }
@@ -209,7 +206,7 @@
         "9c341458-2d2c-4317-a2cc-346e220f53e0",
         "collapsible_tab_VViqYy",
         "collapsible_tab_8R3zyr",
-        "fbfe241f-1b44-41cd-ae22-e866bdad9aaf"
+        "linked_products_Ekg7mP"
       ],
       "settings": {
         "enable_sticky": true,
@@ -293,12 +290,12 @@
         "pagination_text_size": 16,
         "pagination_text_size_mobile": 16,
         "pagination_text_height": 130,
-        "heading_color": "#1B1B1B",
-        "text_color": "#1B1B1B",
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
-        "button_bg_color": "#B59DE3",
-        "button_bg_hover_color": "#B198DE",
+        "heading_color": "#1b1b1b",
+        "text_color": "#1b1b1b",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#b59de3",
+        "button_bg_hover_color": "#b198de",
         "button_border_color": "#000000",
         "button_border_hover_color": "#000000",
         "image_border_color": "#000000",
@@ -307,9 +304,9 @@
         "dots_border_color": "#000000",
         "dots_border_hover_color": "#000000",
         "number_color": "#000000",
-        "number_hover_color": "#FFFFFF",
+        "number_hover_color": "#ffffff",
         "pagination_text_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -327,55 +324,6 @@
         "lazy": true
       }
     },
-    "template_product_recommendations_GxgAUN": {
-      "type": "template--product--recommendations",
-      "blocks": {
-        "product_card_image_agxVCQ": {
-          "type": "product_card_image",
-          "settings": {
-            "enable_quick_shop": false,
-            "disable_quick_shop_mobile": true
-          }
-        },
-        "product_card_title_4C3xCe": {
-          "type": "product_card_title",
-          "settings": {
-            "product_card_title__font": "body"
-          }
-        },
-        "product_card_price_prB3Li": {
-          "type": "product_card_price",
-          "settings": {
-            "product_card_price__font": "body"
-          }
-        },
-        "product_card_vendor_pW7PVU": {
-          "type": "product_card_vendor",
-          "disabled": true,
-          "settings": {
-            "product_card_vendor__font": "body"
-          }
-        },
-        "product_card_quick_shop_Xcew36": {
-          "type": "product_card_quick_shop",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "product_card_image_agxVCQ",
-        "product_card_title_4C3xCe",
-        "product_card_price_prB3Li",
-        "product_card_vendor_pW7PVU",
-        "product_card_quick_shop_Xcew36"
-      ],
-      "custom_css": [
-        "h2 {font-size: 24px; text-align: middle;}"
-      ],
-      "settings": {
-        "product_recommendations_heading": "You may also like"
-      }
-    },
     "product-description": {
       "type": "template--product--description",
       "disabled": true,
@@ -391,45 +339,42 @@
         "custom_liquid": "<div style='text-align:LEFT; padding: 0px 0;font-size:14px'><div class=\"wrapper-padded\"></h2><p>Recently Viewed</p></div></div>"
       }
     },
-    "template_product_recently_viewed_6yGbwX": {
-      "type": "template--product--recently-viewed",
+    "template_product_recommendations_9meq3x": {
+      "type": "template--product--recommendations",
       "blocks": {
-        "product_card_image_D6DJii": {
+        "product_card_image_THRknY": {
           "type": "product_card_image",
           "settings": {
-            "enable_quick_shop": false,
+            "enable_quick_shop": true,
             "disable_quick_shop_mobile": true
           }
         },
-        "product_card_title_YdwdWx": {
+        "product_card_title_LcWQRx": {
           "type": "product_card_title",
           "settings": {
             "product_card_title__font": "body"
           }
         },
-        "product_card_price_pJkTF3": {
+        "product_card_price_BtQxUM": {
           "type": "product_card_price",
           "settings": {
             "product_card_price__font": "body"
           }
         },
-        "product_card_quick_shop_Jp8z7Q": {
+        "product_card_quick_shop_LGWyWe": {
           "type": "product_card_quick_shop",
-          "disabled": true,
           "settings": {}
         }
       },
       "block_order": [
-        "product_card_image_D6DJii",
-        "product_card_title_YdwdWx",
-        "product_card_price_pJkTF3",
-        "product_card_quick_shop_Jp8z7Q"
+        "product_card_image_THRknY",
+        "product_card_title_LcWQRx",
+        "product_card_price_BtQxUM",
+        "product_card_quick_shop_LGWyWe"
       ],
-      "custom_css": [
-        "h2 {font-size: 14px; text-align: left;}"
-      ],
+      "name": "t:sections.template--product--recommendations.presets.name",
       "settings": {
-        "recently_viewed_title": "Recently viewed"
+        "product_recommendations_heading": "You may also like"
       }
     }
   },
@@ -437,9 +382,8 @@
     "product-form",
     "advanced_layout_custom_liquid_wNbeyz",
     "ss_image_with_text_12_XCkhNR",
-    "template_product_recommendations_GxgAUN",
     "product-description",
     "advanced_layout_custom_liquid_GUPqc7",
-    "template_product_recently_viewed_6yGbwX"
+    "template_product_recommendations_9meq3x"
   ]
 }
