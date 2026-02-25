@@ -1,1 +1,114 @@
-{"sections":{"e635abf7-4793-4302-96d6-07b26f4e2ef3":{"type":"advanced-layout--custom-html","blocks":{"template--14795084824646__e635abf7-4793-4302-96d6-07b26f4e2ef3-1688037069fb3d1424-0":{"type":"html","settings":{"code":"<div style=\"text-align:center; padding: 30px 0;\"><div class=\"wrapper-padded\"><\/div><\/div>","width":"100%"}}},"block_order":["template--14795084824646__e635abf7-4793-4302-96d6-07b26f4e2ef3-1688037069fb3d1424-0"],"settings":{}},"main":{"type":"template--article","settings":{"article-sidebar-description":"","blog-sidebar-link":"","show_blog_tags":false,"show_recent_posts":true,"blog_show_date":false}}},"order":["e635abf7-4793-4302-96d6-07b26f4e2ef3","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e635abf7-4793-4302-96d6-07b26f4e2ef3": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--14795084824646__e635abf7-4793-4302-96d6-07b26f4e2ef3-1688037069fb3d1424-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 30px 0;\"><div class=\"wrapper-padded\"></div></div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--14795084824646__e635abf7-4793-4302-96d6-07b26f4e2ef3-1688037069fb3d1424-0"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "template--article",
+      "settings": {
+        "article-sidebar-description": "",
+        "blog-sidebar-link": "",
+        "show_blog_tags": false,
+        "show_recent_posts": true,
+        "blog_show_date": false
+      }
+    },
+    "image_image_with_text_overlay_GJnaLg": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/round-brilliant-diamond_1440x810_Desktop.webp",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 15,
+        "parallax": true,
+        "title": "CHOOSE YOUR DIAMOND",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 32,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "section_contact_form_ahre4h": {
+      "type": "section--contact-form",
+      "blocks": {
+        "name_input_YaVM8n": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "email_input_bd7cLn": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "tel_input_cG4zA4": {
+          "type": "tel_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "message_input_8a6RGD": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input_YaVM8n",
+        "email_input_bd7cLn",
+        "tel_input_cG4zA4",
+        "message_input_8a6RGD"
+      ],
+      "name": "t:sections.section--contact-form.presets.name",
+      "settings": {
+        "section_color_scheme": "white",
+        "form_width": "narrow",
+        "form_title": "Contact us",
+        "form_description": "<p>Have a question, or want a product recommendation? Get in touch.</p>"
+      }
+    }
+  },
+  "order": [
+    "e635abf7-4793-4302-96d6-07b26f4e2ef3",
+    "main",
+    "image_image_with_text_overlay_GJnaLg",
+    "section_contact_form_ahre4h"
+  ]
+}
