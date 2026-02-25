@@ -454,6 +454,29 @@
         "button_link": ""
       }
     },
+    "image_image_with_text_overlay_cRUckM": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/5_3ed2e3b6-7756-4873-9fb9-e64442eb0e2f.jpg",
+        "image_height": "50vw",
+        "bg_image_overlay_opacity": 15,
+        "parallax": true,
+        "title": "Enjoy Your Spark!",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
     "text_testimonials_FLYQBM": {
       "type": "text--testimonials",
       "blocks": {
@@ -636,6 +659,7 @@
     "image_image_with_text_overlay_pmWi6e",
     "image_logo_list_KETYpr",
     "image_image_with_text_trGew3",
+    "image_image_with_text_overlay_cRUckM",
     "text_testimonials_FLYQBM",
     "image_gallery_aLNE97",
     "product-description",
