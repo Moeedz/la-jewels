@@ -787,40 +787,40 @@
         "title": "WHY SHOP WITH US"
       }
     },
-    "text_testimonials_39j7Mh": {
+    "text_testimonials_BdmnYp": {
       "type": "text--testimonials",
       "blocks": {
-        "text_jcH8Wj": {
+        "text_TcJNxx": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/494007355_9953318208063839_3820542454864934625_n.jpg",
-            "testimonial_text": "<p>款式又新又靚，服務週到，佢地嘅石真係好閃！會繼續支持你地，加油！</p>",
-            "customer_name": "Bella Chuk",
-            "link": "",
+            "image": "shopify://shop_images/LVR024-2.jpg",
+            "testimonial_text": "<p>\"Got a stunning ring from La.Vie Jewels for Mother's Day, and she absolutely loves it—it's so sparkly she wears it every day! Super happy with the purchase, plus the preserved flower packaging was so thoughtful and beautiful.❤️\"</p>",
+            "customer_name": "Ms Yu",
+            "link": "shopify://products/lvr024",
             "stars": 5
           }
         },
-        "text_b3XFpg": {
+        "text_ANfYx8": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/501209930_1735871523738932_3675379740279975184_n.jpg",
-            "testimonial_text": "<p>母親節喺La.vie買咗隻戒指送俾媽咪，佢超鍾意，閃到爆佢而家日日戴住, 好開心仲有要讚一下永生花Packing 好有心思</p>",
-            "customer_name": "于淑惠",
-            "link": "",
+            "image": "shopify://shop_images/514420949_3529233907207352_1012400699878211697_n.jpg",
+            "testimonial_text": "<p>\"The owner is super heartfelt. Highly recommend this jewelry store!\"</p>",
+            "customer_name": "Daisy Yip",
+            "link": "shopify://products/lvb017-grace-tie-bangle",
             "stars": 5
           }
         },
-        "text_Hh6YtY": {
+        "text_zTnWey": {
           "type": "text",
           "settings": {
             "image": "shopify://shop_images/503806415_1687493425241288_148994468006331710_n.jpg",
-            "testimonial_text": "<p>款式獨特又新穎, 我本身好鍾意買首飾, 佢哋嘅款我喺出面真係見唔到心心戒指好靚好特別店主好有Heart, 值得推薦的首飾店</p>",
+            "testimonial_text": "<p>\"Unique and trendy designs that you won't find elsewhere. La.Vie Jewels' styles are truly one-of-a-kind.💎❤️\"</p>",
             "customer_name": "Daleyza Amiyah",
-            "link": "https://www.facebook.com/photo.php?fbid=1687493421907955&set=a.800554410601865&type=3",
+            "link": "shopify://products/lvr012",
             "stars": 5
           }
         },
-        "text_BxDYrx": {
+        "text_3QMi4k": {
           "type": "text",
           "settings": {
             "image": "shopify://shop_images/MORE_REVIEWS.png",
@@ -832,12 +832,11 @@
         }
       },
       "block_order": [
-        "text_jcH8Wj",
-        "text_b3XFpg",
-        "text_Hh6YtY",
-        "text_BxDYrx"
+        "text_TcJNxx",
+        "text_ANfYx8",
+        "text_zTnWey",
+        "text_3QMi4k"
       ],
-      "custom_css": [],
       "name": "t:sections.text--testimonials.presets.name",
       "settings": {
         "colors": "white",
@@ -857,6 +856,6 @@
     "image_gallery_NH9DrN",
     "image_gallery_nNCndk",
     "image_logo_list_DRLYyF",
-    "text_testimonials_39j7Mh"
+    "text_testimonials_BdmnYp"
   ]
 }
