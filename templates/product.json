@@ -448,7 +448,7 @@
         "section-width": "full",
         "layout": "left",
         "text_alignment": "center",
-        "title": "3 STEPS TO GET YOUR JEWELS",
+        "title": "3 Steps to get your jewels",
         "text": "<p><strong>STEP 1<br/></strong>Add to cart<br/><br/><strong>STEP 2<br/></strong>Select your payment<br/><br/><strong>STEP 3</strong><br/>Recieve your item</p>",
         "button_label": "",
         "button_link": ""
@@ -467,7 +467,7 @@
         "colors": "light",
         "textPosition": "center",
         "textAlignment": "center",
-        "heading--text-size": 26,
+        "heading--text-size": 30,
         "text--text-size": 18,
         "link": "",
         "button_label": "",
