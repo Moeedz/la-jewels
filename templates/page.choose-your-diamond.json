@@ -443,6 +443,29 @@
         "lazy": true
       }
     },
+    "image_image_with_text_overlay_kqhFr6": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC09072.jpg",
+        "image_height": "50vw",
+        "bg_image_overlay_opacity": 25,
+        "parallax": true,
+        "title": "Flexible Materials",
+        "text": "Select from materials 14K and 18K gold, PT950 platinum, paired with lab-grown or natural diamonds.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
     "blog_blog_posts_w9BCh3": {
       "type": "blog--blog-posts",
       "blocks": {
@@ -473,6 +496,7 @@
     "ss_image_with_text_12_3R6LYM",
     "ss_image_with_text_12_MJctgP",
     "ss_image_with_text_12_bLEwLr",
+    "image_image_with_text_overlay_kqhFr6",
     "blog_blog_posts_w9BCh3"
   ]
 }
