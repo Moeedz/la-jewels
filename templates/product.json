@@ -324,6 +324,75 @@
         "lazy": true
       }
     },
+    "image_image_with_text_overlay_4JfzBp": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC09296.jpg",
+        "image_height": "original",
+        "bg_image_overlay_opacity": 15,
+        "parallax": true,
+        "title": "Adorned in Jewels",
+        "text": "Wear your passion, power, and poetry.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 20,
+        "link": "shopify://collections/frontpage",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_overlay_BCmPU4": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/183aab48ecbe0722b70eecb2a92cb85f.jpg",
+        "image_height": "50vw",
+        "bg_image_overlay_opacity": 45,
+        "parallax": true,
+        "title": "Handcrafted With Soul, Sparkling Eternally.",
+        "text": "Uphold the highest standards, using only rigorously tested materials to infuse eternal value and comfortable wear.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 20,
+        "link": "shopify://pages/diamond-academy",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "image_image_with_text_overlay_pmWi6e": {
+      "type": "image--image-with-text-overlay",
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/DSC00334.jpg",
+        "image_height": "original",
+        "bg_image_overlay_opacity": 40,
+        "parallax": true,
+        "title": "Bespoke Beauty, Crafted Just For You.",
+        "text": "La.Vie Jewels offers comprehensive Custom and Semi-Custom Services, with all designs fully customizable to suit your preferences.",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 30,
+        "text--text-size": 20,
+        "link": "shopify://pages/tailor-made-process",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
     "product-description": {
       "type": "template--product--description",
       "disabled": true,
@@ -382,6 +451,9 @@
     "product-form",
     "advanced_layout_custom_liquid_wNbeyz",
     "ss_image_with_text_12_XCkhNR",
+    "image_image_with_text_overlay_4JfzBp",
+    "image_image_with_text_overlay_BCmPU4",
+    "image_image_with_text_overlay_pmWi6e",
     "product-description",
     "advanced_layout_custom_liquid_GUPqc7",
     "template_product_recommendations_9meq3x"
