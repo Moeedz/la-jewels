@@ -618,15 +618,15 @@
     },
     "image_image_with_text_overlay_jY3rzd": {
       "type": "image--image-with-text-overlay",
-      "disabled": true,
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
+        "image": "shopify://shop_images/IMG_1171-2.jpg",
         "image_height": "40vw",
-        "bg_image_overlay_opacity": 0,
+        "bg_image_overlay_opacity": 35,
         "parallax": true,
         "title": "VISIT US",
         "text": "TSIM SHA TSUI STORE",
-        "colors": "dark",
+        "colors": "light",
         "textPosition": "center",
         "textAlignment": "center",
         "heading--text-size": 26,
@@ -642,9 +642,23 @@
     "image_gallery_NH9DrN": {
       "type": "image--gallery",
       "blocks": {
+        "image_BVfJQj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1175-2.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
         "image_JUV9mT": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/IMG_1172-2.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -657,6 +671,7 @@
         "image_MdhzLF": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/IMG_1170-2.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -668,17 +683,17 @@
         }
       },
       "block_order": [
+        "image_BVfJQj",
         "image_JUV9mT",
         "image_MdhzLF"
       ],
-      "disabled": true,
       "name": "t:sections.image--gallery.presets.name",
       "settings": {
         "colors": "white",
         "title": "",
-        "richtext": "",
+        "richtext": "<p><strong>ADDRESS<br/></strong>Room 1606, Austin Tower, <br/>22-26 Austin Avenue, <br/>Tsim Sha Tsui, Hong Kong <br/><strong><br/>OPEN HOURS</strong><br/>Mon - Sun<br/>13:00 - 21:00</p>",
         "remove-spacing": true,
-        "full-width": false,
+        "full-width": true,
         "section-width": "full",
         "content-position": "hide"
       }
