@@ -375,8 +375,8 @@
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
         "image": "shopify://shop_images/DSC00334.jpg",
-        "image_height": "original",
-        "bg_image_overlay_opacity": 40,
+        "image_height": "50vw",
+        "bg_image_overlay_opacity": 30,
         "parallax": true,
         "title": "Bespoke Beauty, Crafted Just For You.",
         "text": "La.Vie Jewels offers comprehensive Custom and Semi-Custom Services, with all designs fully customizable to suit your preferences.",
@@ -391,6 +391,51 @@
         "button-background": "#262428",
         "hover-button-text": "#ffffff",
         "hover-button-background": "#494949"
+      }
+    },
+    "image_logo_list_KETYpr": {
+      "type": "image--logo-list",
+      "blocks": {
+        "logo_image_4m9Cq8": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-01.png",
+            "link": ""
+          }
+        },
+        "logo_image_RxqXNc": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-03.png",
+            "link": ""
+          }
+        },
+        "logo_image_mANH9h": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-02.png",
+            "link": ""
+          }
+        },
+        "logo_image_rtR3WK": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/laive-promise-04.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_4m9Cq8",
+        "logo_image_RxqXNc",
+        "logo_image_mANH9h",
+        "logo_image_rtR3WK"
+      ],
+      "name": "t:sections.image--logo-list.presets.name",
+      "settings": {
+        "colors": "white",
+        "width": 190,
+        "title": "WHY SHOP WITH US"
       }
     },
     "product-description": {
@@ -443,7 +488,7 @@
       ],
       "name": "t:sections.template--product--recommendations.presets.name",
       "settings": {
-        "product_recommendations_heading": "You may also like"
+        "product_recommendations_heading": "YOU MAY ALSO LIKE"
       }
     }
   },
@@ -454,6 +499,7 @@
     "image_image_with_text_overlay_4JfzBp",
     "image_image_with_text_overlay_BCmPU4",
     "image_image_with_text_overlay_pmWi6e",
+    "image_logo_list_KETYpr",
     "product-description",
     "advanced_layout_custom_liquid_GUPqc7",
     "template_product_recommendations_9meq3x"
