@@ -484,6 +484,79 @@
         "title": "CUSTOMER REVIEW"
       }
     },
+    "image_gallery_aLNE97": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_VMGNxX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_c05ec555-2e77-4360-892b-533627999112.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_xpPiYD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_QdxC96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_DzEji8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_3757c1ea-8792-434b-a8d4-42d79d7767b5.png",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_VMGNxX",
+        "image_xpPiYD",
+        "image_QdxC96",
+        "image_DzEji8"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "hover"
+      }
+    },
     "product-description": {
       "type": "template--product--description",
       "disabled": true,
@@ -547,6 +620,7 @@
     "image_image_with_text_overlay_pmWi6e",
     "image_logo_list_KETYpr",
     "text_testimonials_FLYQBM",
+    "image_gallery_aLNE97",
     "product-description",
     "advanced_layout_custom_liquid_GUPqc7",
     "template_product_recommendations_9meq3x"
