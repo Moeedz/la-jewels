@@ -438,6 +438,41 @@
         "title": "WHY SHOP WITH US"
       }
     },
+    "text_testimonials_FLYQBM": {
+      "type": "text--testimonials",
+      "blocks": {
+        "text_JQadaP": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/LVR024-2.jpg",
+            "testimonial_text": "<p>\"Got a stunning ring from La.Vie Jewels for Mother's Day, and she absolutely loves it—it's so sparkly she wears it every day! Super happy with the purchase, plus the preserved flower packaging was so thoughtful and beautiful.❤️\"</p>",
+            "customer_name": "Ms Yu",
+            "link": "shopify://products/lvr024",
+            "stars": 5
+          }
+        },
+        "text_wjPVUi": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/503806415_1687493425241288_148994468006331710_n.jpg",
+            "testimonial_text": "<p>\"Unique and trendy designs that you won't find elsewhere. La.Vie Jewels' styles are truly one-of-a-kind.💎❤️\"</p>",
+            "customer_name": "Daleyza Amiyah",
+            "link": "shopify://products/lvr012",
+            "stars": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_JQadaP",
+        "text_wjPVUi"
+      ],
+      "name": "t:sections.text--testimonials.presets.name",
+      "settings": {
+        "colors": "white",
+        "circle_images": true,
+        "title": "CUSTOMER REVIEW"
+      }
+    },
     "product-description": {
       "type": "template--product--description",
       "disabled": true,
@@ -500,6 +535,7 @@
     "image_image_with_text_overlay_BCmPU4",
     "image_image_with_text_overlay_pmWi6e",
     "image_logo_list_KETYpr",
+    "text_testimonials_FLYQBM",
     "product-description",
     "advanced_layout_custom_liquid_GUPqc7",
     "template_product_recommendations_9meq3x"
