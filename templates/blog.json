@@ -20,105 +20,6 @@
         "blog_show_date": true
       }
     },
-    "8b2fc622-0e44-4a15-802d-c07a2aed74b1": {
-      "type": "collage-builder",
-      "blocks": {
-        "template--14831908487238__8b2fc622-0e44-4a15-802d-c07a2aed74b1-image-1": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "heading_size": 30,
-            "button_label": "Shop now",
-            "url": "shopify://collections/all",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "text_color": "#262428",
-            "button_color": "#ffffff",
-            "button_background_color": "#242424",
-            "button_hover_color": "#ffffff",
-            "button_hover_background_color": "#9f9f9f",
-            "overlay_color": "rgba(0,0,0,0)"
-          }
-        },
-        "ff8c8d7e-fed9-4ac8-b851-6df3a97bafaf": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "heading_size": 30,
-            "button_label": "Shop now",
-            "url": "shopify://collections/all",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "text_color": "#262428",
-            "button_color": "#ffffff",
-            "button_background_color": "#242424",
-            "button_hover_color": "#ffffff",
-            "button_hover_background_color": "#9f9f9f",
-            "overlay_color": "rgba(0,0,0,0)"
-          }
-        },
-        "1109df3c-e2e9-4aec-be44-f068f797e659": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "heading_size": 30,
-            "button_label": "Shop now",
-            "url": "shopify://collections/all",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "text_color": "#262428",
-            "button_color": "#ffffff",
-            "button_background_color": "#242424",
-            "button_hover_color": "#ffffff",
-            "button_hover_background_color": "#9f9f9f",
-            "overlay_color": "rgba(0,0,0,0)"
-          }
-        },
-        "18a16615-ec6d-4759-8bc4-76adc65adf18": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "heading_size": 30,
-            "button_label": "Shop now",
-            "url": "shopify://collections/all",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "text_color": "#262428",
-            "button_color": "#ffffff",
-            "button_background_color": "#242424",
-            "button_hover_color": "#ffffff",
-            "button_hover_background_color": "#9f9f9f",
-            "overlay_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "template--14831908487238__8b2fc622-0e44-4a15-802d-c07a2aed74b1-image-1",
-        "ff8c8d7e-fed9-4ac8-b851-6df3a97bafaf",
-        "1109df3c-e2e9-4aec-be44-f068f797e659",
-        "18a16615-ec6d-4759-8bc4-76adc65adf18"
-      ],
-      "settings": {
-        "color_scheme": "white",
-        "title": "SHOP BY CATEGORY",
-        "description": "",
-        "remove_spacing": false,
-        "section_width": "content",
-        "width_1": "4",
-        "height_1": "3",
-        "width_2": "4",
-        "height_2": "3",
-        "width_3": "4",
-        "height_3": "3",
-        "width_4": "4",
-        "height_4": "3",
-        "width_5": "2",
-        "height_5": "2",
-        "width_6": "1",
-        "height_6": "4",
-        "block_alignment": "center"
-      }
-    },
     "67543449-bf33-4648-97bf-c7e5c527ccf2": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -178,7 +79,6 @@
   },
   "order": [
     "main",
-    "8b2fc622-0e44-4a15-802d-c07a2aed74b1",
     "67543449-bf33-4648-97bf-c7e5c527ccf2",
     "1646004249db2dcfc2"
   ]
