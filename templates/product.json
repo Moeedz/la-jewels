@@ -451,6 +451,16 @@
             "stars": 5
           }
         },
+        "text_KzTrKE": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/514420949_3529233907207352_1012400699878211697_n.jpg",
+            "testimonial_text": "<p>\"The owner is super heartfelt. Highly recommend this jewelry store!\"</p>",
+            "customer_name": "Daisy Yip",
+            "link": "shopify://products/lvb017-grace-tie-bangle",
+            "stars": 5
+          }
+        },
         "text_wjPVUi": {
           "type": "text",
           "settings": {
@@ -458,12 +468,13 @@
             "testimonial_text": "<p>\"Unique and trendy designs that you won't find elsewhere. La.Vie Jewels' styles are truly one-of-a-kind.💎❤️\"</p>",
             "customer_name": "Daleyza Amiyah",
             "link": "shopify://products/lvr012",
-            "stars": 0
+            "stars": 5
           }
         }
       },
       "block_order": [
         "text_JQadaP",
+        "text_KzTrKE",
         "text_wjPVUi"
       ],
       "name": "t:sections.text--testimonials.presets.name",
