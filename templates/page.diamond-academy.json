@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "template--page",
+      "disabled": true,
       "custom_css": [
         "svg.feather.feather-arrow-right-circle.icon-wings {display: none;}"
       ],
