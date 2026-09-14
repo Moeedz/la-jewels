@@ -62,7 +62,7 @@
               <div class="quick-add-wrapper">
                 <a class="quick-add-button-onboarding quick-add-button-onboarding-desktop" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.add_to_cart' | t }}</a>
                 {% unless quick_shop_mobile_disabled %}
-                  <a class="quick-add-button-onboarding quick-add-button-onboarding-mobile" tabindex="0" href="{{ product.url | within: collection }}"><span>{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
+                  <a class="quick-add-button-onboarding quick-add-button-onboarding-mobile" tabindex="0" href="{{ product.url | within: collection }}"><span>{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
                 {% endunless %}
               </div>
             </div>
@@ -91,7 +91,23 @@
         </div>
 
       {%- when 'product_card_swatches' -%}
-        {% render 'card-color-swatch' with swatch_product: product, hide_out_of_stock_variants: false, show_color_label: show_color_label %}
+        {% render 'card-color-swatch' with swatch_product, swatch_product: product, hide_out_of_stock_variants: false, show_color_label: show_color_label %}
     {%- endcase -%}
   {%- endfor -%}
-</product-card>
+</product-card>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  position: 2879..2989
+- from: "{% render 'card-color-swatch' with swatch_product: product, hide_out_of_stock_variants:
+    false, show_color_label: show_color_label %}"
+  to: "{% render 'card-color-swatch' with swatch_product, swatch_product: product,
+    hide_out_of_stock_variants: false, show_color_label: show_color_label %}"
+  position: 4512..4660
+{%- endcomment -%}

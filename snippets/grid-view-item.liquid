@@ -120,16 +120,16 @@
             <div class="quick-add-wrapper{% if product.variants.size == 1 %} is-singular{% endif %}">
               {% if product.variants.size > 1 and product.available %}
                   <a class="quick-add-button-variants quick-add-button-variants-desktop" tabindex="0" href="{{ product.url | within: collection }}" data-product-card-link>{{ 'products.product.view_options' | t }}</a>
-                  <a class="quick-add-button-variants quick-add-button-variants-mobile{% if disable_quick_shop_mobile %} quick-shop-hidden{% endif %}" tabindex="0" href="{{ product.url | within: collection }}" data-product-card-link><span>{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
+                  <a class="quick-add-button-variants quick-add-button-variants-mobile{% if disable_quick_shop_mobile %} quick-shop-hidden{% endif %}" tabindex="0" href="{{ product.url | within: collection }}" data-product-card-link><span>{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
               {% elsif product.available %}
                 {% form 'product', product, id: "CollectionAddToCartForm" %}
                   <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
                   <button class="quick-add-button quick-add-button-desktop" type="submit" tabindex="0">{{ 'products.product.add_to_cart' | t }}</button>
-                  <button class="quick-add-button quick-add-button-mobile{% if disable_quick_shop_mobile %} quick-shop-hidden{% endif %}" type="submit" tabindex="0"><span>{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></button>
+                  <button class="quick-add-button quick-add-button-mobile{% if disable_quick_shop_mobile %} quick-shop-hidden{% endif %}" type="submit" tabindex="0"><span>{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></button>
                 {% endform %}
               {% else %}
                 <a class="sold-out-button sold-out-button-desktop" tabindex="0" href="{{ product.url | within: collection }}">{{ 'products.product.sold_out' | t }}</a>
-                <a class="sold-out-button sold-out-button-mobile{% if disable_quick_shop_mobile %} quick-shop-hidden{% endif %}" tabindex="0" href="{{ product.url | within: collection }}"><span>{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
+                <a class="sold-out-button sold-out-button-mobile{% if disable_quick_shop_mobile %} quick-shop-hidden{% endif %}" tabindex="0" href="{{ product.url | within: collection }}"><span>{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
               {% endif %}
             </div>
           {% endif %}
@@ -172,8 +172,35 @@
       </div>
 
       {%- when 'product_card_swatches' -%}
-        {% render 'card-color-swatch' with swatch_product: product, hide_out_of_stock_variants: false, show_color_label: show_color_label %}
+        {% render 'card-color-swatch' with swatch_product, swatch_product: product, hide_out_of_stock_variants: false, show_color_label: show_color_label %}
 
     {%- endcase -%}
   {%- endfor -%}
 </product-card>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  position: 5744..5854
+- from: "{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  position: 6403..6513
+- from: "{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  position: 6947..7057
+- from: "{% render 'card-color-swatch' with swatch_product: product, hide_out_of_stock_variants:
+    false, show_color_label: show_color_label %}"
+  to: "{% render 'card-color-swatch' with swatch_product, swatch_product: product,
+    hide_out_of_stock_variants: false, show_color_label: show_color_label %}"
+  position: 9492..9640
+{% endcomment %}

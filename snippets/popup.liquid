@@ -87,7 +87,7 @@
   {% comment %}We need slide-up for mobile (even when using fullscreen on desktop){% endcomment %}
   <div id="slide-up" style="display:none;">
     <a class="popup--close-btn" tabindex="0">
-      {% render 'theme-icon' with icon: 'close', iconSize: 20 %}
+      {% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}
     </a>
 
       {% if settings.popup-newsletter-top != blank %}
@@ -139,3 +139,13 @@
   </div>
 </div>
 {% endif %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'close', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}"
+  position: 3928..3992
+{% endcomment %}
